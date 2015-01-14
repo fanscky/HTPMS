@@ -1,0 +1,3250 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	TemplateName="(Other)"
+	WorkingDir=".">
+	<Config
+		Name="Release"
+		OutputFile=""
+		CompilerConfigName="">
+		<Menu>
+			<Target
+				Name="Compile"
+				MenuCaption="&amp;Compile"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Build"
+				MenuCaption="&amp;Build"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Rebuild"
+				MenuCaption="&amp;Rebuild"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				SaveOption="SaveNone"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				SaveOption="SaveNone"
+				RunFromDir="%rw">
+				<Exec CmdLine='".exe"'/>
+			</Target>
+		</Menu>
+	</Config>
+	<CustomFolders>
+		<Folder
+			Name="Source Files"
+			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d;*.m;*.mm;*.go">
+		</Folder>
+		<Folder
+			Name="Header Files"
+			Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.inc;*.sh;*.cpy;*.if">
+		</Folder>
+		<Folder
+			Name="Resource Files"
+			Filters="*.ico;*.cur;*.dlg">
+		</Folder>
+		<Folder
+			Name="Bitmaps"
+			Filters="*.bmp"/>
+		<Folder
+			Name="Other Files"
+			Filters="">
+		</Folder>
+	</CustomFolders>
+	<Files AutoFolders="PackageView">
+		<Folder Name="apache/bin">
+			<F N="apache/bin/htpasswd.exe"/>
+			<F N="apache/bin/httpd.exe"/>
+			<F N="apache/bin/libapr-1.dll"/>
+			<F N="apache/bin/libapriconv-1.dll"/>
+			<F N="apache/bin/libaprutil-1.dll"/>
+			<F N="apache/bin/libeay32.dll"/>
+			<F N="apache/bin/libhttpd.dll"/>
+			<F N="apache/bin/libsasl.dll"/>
+			<F N="apache/bin/msvcr100.dll"/>
+			<F N="apache/bin/pcre.dll"/>
+			<F N="apache/bin/pv.exe"/>
+			<F N="apache/bin/ssleay32.dll"/>
+			<F N="apache/bin/zlib1.dll"/>
+		</Folder>
+		<Folder Name="apache/conf">
+			<F N="apache/conf/httpd.conf"/>
+			<F N="apache/conf/mime.types"/>
+		</Folder>
+		<Folder Name="apache/logs">
+			<F N="apache/logs/access_log"/>
+			<F N="apache/logs/error_log"/>
+		</Folder>
+		<Folder Name="apache/modules">
+			<F N="apache/modules/mod_access_compat.so"/>
+			<F N="apache/modules/mod_alias.so"/>
+			<F N="apache/modules/mod_auth_basic.so"/>
+			<F N="apache/modules/mod_authz_core.so"/>
+			<F N="apache/modules/mod_authz_host.so"/>
+			<F N="apache/modules/mod_authz_user.so"/>
+			<F N="apache/modules/mod_autoindex.so"/>
+			<F N="apache/modules/mod_deflate.so"/>
+			<F N="apache/modules/mod_dir.so"/>
+			<F N="apache/modules/mod_env.so"/>
+			<F N="apache/modules/mod_expires.so"/>
+			<F N="apache/modules/mod_filter.so"/>
+			<F N="apache/modules/mod_log_config.so"/>
+			<F N="apache/modules/mod_mime.so"/>
+			<F N="apache/modules/mod_rewrite.so"/>
+			<F N="apache/modules/mod_setenvif.so"/>
+		</Folder>
+		<Folder Name="htdocs">
+			<F N="htdocs/index.php"/>
+			<F N="htdocs/logo2.png"/>
+		</Folder>
+		<Folder Name="mysql">
+			<F N="mysql/my.ini"/>
+			<F N="mysql/mysql_installservice.bat"/>
+			<F N="mysql/mysql_uninstallservice.bat"/>
+		</Folder>
+		<Folder Name="mysql/bin">
+			<F N="mysql/bin/khackmon.dll.log"/>
+			<F N="mysql/bin/mysql.exe"/>
+			<F N="mysql/bin/mysqld.exe"/>
+			<F N="mysql/bin/mysqldump.exe"/>
+		</Folder>
+		<Folder Name="mysql/data">
+			<F N="mysql/data/mysql_error.err"/>
+		</Folder>
+		<Folder Name="mysql/data/mysql">
+			<F N="mysql/data/mysql/columns_priv.frm"/>
+			<F N="mysql/data/mysql/columns_priv.MYD"/>
+			<F N="mysql/data/mysql/columns_priv.MYI"/>
+			<F N="mysql/data/mysql/db.frm"/>
+			<F N="mysql/data/mysql/db.MYD"/>
+			<F N="mysql/data/mysql/db.MYI"/>
+			<F N="mysql/data/mysql/event.frm"/>
+			<F N="mysql/data/mysql/event.MYD"/>
+			<F N="mysql/data/mysql/event.MYI"/>
+			<F N="mysql/data/mysql/func.frm"/>
+			<F N="mysql/data/mysql/func.MYD"/>
+			<F N="mysql/data/mysql/func.MYI"/>
+			<F N="mysql/data/mysql/general_log.CSM"/>
+			<F N="mysql/data/mysql/general_log.CSV"/>
+			<F N="mysql/data/mysql/general_log.frm"/>
+			<F N="mysql/data/mysql/help_category.frm"/>
+			<F N="mysql/data/mysql/help_category.MYD"/>
+			<F N="mysql/data/mysql/help_category.MYI"/>
+			<F N="mysql/data/mysql/help_keyword.frm"/>
+			<F N="mysql/data/mysql/help_keyword.MYD"/>
+			<F N="mysql/data/mysql/help_keyword.MYI"/>
+			<F N="mysql/data/mysql/help_relation.frm"/>
+			<F N="mysql/data/mysql/help_relation.MYD"/>
+			<F N="mysql/data/mysql/help_relation.MYI"/>
+			<F N="mysql/data/mysql/help_topic.frm"/>
+			<F N="mysql/data/mysql/help_topic.MYD"/>
+			<F N="mysql/data/mysql/help_topic.MYI"/>
+			<F N="mysql/data/mysql/host.frm"/>
+			<F N="mysql/data/mysql/host.MYD"/>
+			<F N="mysql/data/mysql/host.MYI"/>
+			<F N="mysql/data/mysql/ndb_binlog_index.frm"/>
+			<F N="mysql/data/mysql/ndb_binlog_index.MYD"/>
+			<F N="mysql/data/mysql/ndb_binlog_index.MYI"/>
+			<F N="mysql/data/mysql/plugin.frm"/>
+			<F N="mysql/data/mysql/plugin.MYD"/>
+			<F N="mysql/data/mysql/plugin.MYI"/>
+			<F N="mysql/data/mysql/proc.frm"/>
+			<F N="mysql/data/mysql/proc.MYD"/>
+			<F N="mysql/data/mysql/proc.MYI"/>
+			<F N="mysql/data/mysql/procs_priv.frm"/>
+			<F N="mysql/data/mysql/procs_priv.MYD"/>
+			<F N="mysql/data/mysql/procs_priv.MYI"/>
+			<F N="mysql/data/mysql/proxies_priv.frm"/>
+			<F N="mysql/data/mysql/proxies_priv.MYD"/>
+			<F N="mysql/data/mysql/proxies_priv.MYI"/>
+			<F N="mysql/data/mysql/servers.frm"/>
+			<F N="mysql/data/mysql/servers.MYD"/>
+			<F N="mysql/data/mysql/servers.MYI"/>
+			<F N="mysql/data/mysql/slow_log.CSM"/>
+			<F N="mysql/data/mysql/slow_log.CSV"/>
+			<F N="mysql/data/mysql/slow_log.frm"/>
+			<F N="mysql/data/mysql/tables_priv.frm"/>
+			<F N="mysql/data/mysql/tables_priv.MYD"/>
+			<F N="mysql/data/mysql/tables_priv.MYI"/>
+			<F N="mysql/data/mysql/time_zone.frm"/>
+			<F N="mysql/data/mysql/time_zone.MYD"/>
+			<F N="mysql/data/mysql/time_zone.MYI"/>
+			<F N="mysql/data/mysql/time_zone_leap_second.frm"/>
+			<F N="mysql/data/mysql/time_zone_leap_second.MYD"/>
+			<F N="mysql/data/mysql/time_zone_leap_second.MYI"/>
+			<F N="mysql/data/mysql/time_zone_name.frm"/>
+			<F N="mysql/data/mysql/time_zone_name.MYD"/>
+			<F N="mysql/data/mysql/time_zone_name.MYI"/>
+			<F N="mysql/data/mysql/time_zone_transition.frm"/>
+			<F N="mysql/data/mysql/time_zone_transition.MYD"/>
+			<F N="mysql/data/mysql/time_zone_transition.MYI"/>
+			<F N="mysql/data/mysql/time_zone_transition_type.frm"/>
+			<F N="mysql/data/mysql/time_zone_transition_type.MYD"/>
+			<F N="mysql/data/mysql/time_zone_transition_type.MYI"/>
+			<F N="mysql/data/mysql/user.frm"/>
+			<F N="mysql/data/mysql/user.MYD"/>
+			<F N="mysql/data/mysql/user.MYI"/>
+		</Folder>
+		<Folder Name="mysql/data/performance_schema">
+			<F N="mysql/data/performance_schema/cond_instances.frm"/>
+			<F N="mysql/data/performance_schema/db.opt"/>
+			<F N="mysql/data/performance_schema/events_waits_current.frm"/>
+			<F N="mysql/data/performance_schema/events_waits_history.frm"/>
+			<F N="mysql/data/performance_schema/events_waits_history_long.frm"/>
+			<F N="mysql/data/performance_schema/events_waits_summary_by_instance.frm"/>
+			<F N="mysql/data/performance_schema/events_waits_summary_by_thread_by_event_name.frm"/>
+			<F N="mysql/data/performance_schema/events_waits_summary_global_by_event_name.frm"/>
+			<F N="mysql/data/performance_schema/file_instances.frm"/>
+			<F N="mysql/data/performance_schema/file_summary_by_event_name.frm"/>
+			<F N="mysql/data/performance_schema/file_summary_by_instance.frm"/>
+			<F N="mysql/data/performance_schema/mutex_instances.frm"/>
+			<F N="mysql/data/performance_schema/performance_timers.frm"/>
+			<F N="mysql/data/performance_schema/rwlock_instances.frm"/>
+			<F N="mysql/data/performance_schema/setup_consumers.frm"/>
+			<F N="mysql/data/performance_schema/setup_instruments.frm"/>
+			<F N="mysql/data/performance_schema/setup_timers.frm"/>
+			<F N="mysql/data/performance_schema/threads.frm"/>
+		</Folder>
+		<Folder Name="mysql/data/zentao">
+			<F N="mysql/data/zentao/db.opt"/>
+			<F N="mysql/data/zentao/zt_action.frm"/>
+			<F N="mysql/data/zentao/zt_action.MYD"/>
+			<F N="mysql/data/zentao/zt_action.MYI"/>
+			<F N="mysql/data/zentao/zt_bug.frm"/>
+			<F N="mysql/data/zentao/zt_bug.MYD"/>
+			<F N="mysql/data/zentao/zt_bug.MYI"/>
+			<F N="mysql/data/zentao/zt_build.frm"/>
+			<F N="mysql/data/zentao/zt_build.MYD"/>
+			<F N="mysql/data/zentao/zt_build.MYI"/>
+			<F N="mysql/data/zentao/zt_burn.frm"/>
+			<F N="mysql/data/zentao/zt_burn.MYD"/>
+			<F N="mysql/data/zentao/zt_burn.MYI"/>
+			<F N="mysql/data/zentao/zt_case.frm"/>
+			<F N="mysql/data/zentao/zt_case.MYD"/>
+			<F N="mysql/data/zentao/zt_case.MYI"/>
+			<F N="mysql/data/zentao/zt_casestep.frm"/>
+			<F N="mysql/data/zentao/zt_casestep.MYD"/>
+			<F N="mysql/data/zentao/zt_casestep.MYI"/>
+			<F N="mysql/data/zentao/zt_company.frm"/>
+			<F N="mysql/data/zentao/zt_company.MYD"/>
+			<F N="mysql/data/zentao/zt_company.MYI"/>
+			<F N="mysql/data/zentao/zt_config.frm"/>
+			<F N="mysql/data/zentao/zt_config.MYD"/>
+			<F N="mysql/data/zentao/zt_config.MYI"/>
+			<F N="mysql/data/zentao/zt_dept.frm"/>
+			<F N="mysql/data/zentao/zt_dept.MYD"/>
+			<F N="mysql/data/zentao/zt_dept.MYI"/>
+			<F N="mysql/data/zentao/zt_doc.frm"/>
+			<F N="mysql/data/zentao/zt_doc.MYD"/>
+			<F N="mysql/data/zentao/zt_doc.MYI"/>
+			<F N="mysql/data/zentao/zt_doclib.frm"/>
+			<F N="mysql/data/zentao/zt_doclib.MYD"/>
+			<F N="mysql/data/zentao/zt_doclib.MYI"/>
+			<F N="mysql/data/zentao/zt_effort.frm"/>
+			<F N="mysql/data/zentao/zt_effort.MYD"/>
+			<F N="mysql/data/zentao/zt_effort.MYI"/>
+			<F N="mysql/data/zentao/zt_extension.frm"/>
+			<F N="mysql/data/zentao/zt_extension.MYD"/>
+			<F N="mysql/data/zentao/zt_extension.MYI"/>
+			<F N="mysql/data/zentao/zt_file.frm"/>
+			<F N="mysql/data/zentao/zt_file.MYD"/>
+			<F N="mysql/data/zentao/zt_file.MYI"/>
+			<F N="mysql/data/zentao/zt_group.frm"/>
+			<F N="mysql/data/zentao/zt_group.MYD"/>
+			<F N="mysql/data/zentao/zt_group.MYI"/>
+			<F N="mysql/data/zentao/zt_grouppriv.frm"/>
+			<F N="mysql/data/zentao/zt_grouppriv.MYD"/>
+			<F N="mysql/data/zentao/zt_grouppriv.MYI"/>
+			<F N="mysql/data/zentao/zt_history.frm"/>
+			<F N="mysql/data/zentao/zt_history.MYD"/>
+			<F N="mysql/data/zentao/zt_history.MYI"/>
+			<F N="mysql/data/zentao/zt_lang.frm"/>
+			<F N="mysql/data/zentao/zt_lang.MYD"/>
+			<F N="mysql/data/zentao/zt_lang.MYI"/>
+			<F N="mysql/data/zentao/zt_module.frm"/>
+			<F N="mysql/data/zentao/zt_module.MYD"/>
+			<F N="mysql/data/zentao/zt_module.MYI"/>
+			<F N="mysql/data/zentao/zt_product.frm"/>
+			<F N="mysql/data/zentao/zt_product.MYD"/>
+			<F N="mysql/data/zentao/zt_product.MYI"/>
+			<F N="mysql/data/zentao/zt_productplan.frm"/>
+			<F N="mysql/data/zentao/zt_productplan.MYD"/>
+			<F N="mysql/data/zentao/zt_productplan.MYI"/>
+			<F N="mysql/data/zentao/zt_project.frm"/>
+			<F N="mysql/data/zentao/zt_project.MYD"/>
+			<F N="mysql/data/zentao/zt_project.MYI"/>
+			<F N="mysql/data/zentao/zt_projectproduct.frm"/>
+			<F N="mysql/data/zentao/zt_projectproduct.MYD"/>
+			<F N="mysql/data/zentao/zt_projectproduct.MYI"/>
+			<F N="mysql/data/zentao/zt_projectstory.frm"/>
+			<F N="mysql/data/zentao/zt_projectstory.MYD"/>
+			<F N="mysql/data/zentao/zt_projectstory.MYI"/>
+			<F N="mysql/data/zentao/zt_release.frm"/>
+			<F N="mysql/data/zentao/zt_release.MYD"/>
+			<F N="mysql/data/zentao/zt_release.MYI"/>
+			<F N="mysql/data/zentao/zt_story.frm"/>
+			<F N="mysql/data/zentao/zt_story.MYD"/>
+			<F N="mysql/data/zentao/zt_story.MYI"/>
+			<F N="mysql/data/zentao/zt_storyspec.frm"/>
+			<F N="mysql/data/zentao/zt_storyspec.MYD"/>
+			<F N="mysql/data/zentao/zt_storyspec.MYI"/>
+			<F N="mysql/data/zentao/zt_task.frm"/>
+			<F N="mysql/data/zentao/zt_task.MYD"/>
+			<F N="mysql/data/zentao/zt_task.MYI"/>
+			<F N="mysql/data/zentao/zt_taskestimate.frm"/>
+			<F N="mysql/data/zentao/zt_taskestimate.MYD"/>
+			<F N="mysql/data/zentao/zt_taskestimate.MYI"/>
+			<F N="mysql/data/zentao/zt_team.frm"/>
+			<F N="mysql/data/zentao/zt_team.MYD"/>
+			<F N="mysql/data/zentao/zt_team.MYI"/>
+			<F N="mysql/data/zentao/zt_testresult.frm"/>
+			<F N="mysql/data/zentao/zt_testresult.MYD"/>
+			<F N="mysql/data/zentao/zt_testresult.MYI"/>
+			<F N="mysql/data/zentao/zt_testrun.frm"/>
+			<F N="mysql/data/zentao/zt_testrun.MYD"/>
+			<F N="mysql/data/zentao/zt_testrun.MYI"/>
+			<F N="mysql/data/zentao/zt_testtask.frm"/>
+			<F N="mysql/data/zentao/zt_testtask.MYD"/>
+			<F N="mysql/data/zentao/zt_testtask.MYI"/>
+			<F N="mysql/data/zentao/zt_todo.frm"/>
+			<F N="mysql/data/zentao/zt_todo.MYD"/>
+			<F N="mysql/data/zentao/zt_todo.MYI"/>
+			<F N="mysql/data/zentao/zt_user.frm"/>
+			<F N="mysql/data/zentao/zt_user.MYD"/>
+			<F N="mysql/data/zentao/zt_user.MYI"/>
+			<F N="mysql/data/zentao/zt_usercontact.frm"/>
+			<F N="mysql/data/zentao/zt_usercontact.MYD"/>
+			<F N="mysql/data/zentao/zt_usercontact.MYI"/>
+			<F N="mysql/data/zentao/zt_usergroup.frm"/>
+			<F N="mysql/data/zentao/zt_usergroup.MYD"/>
+			<F N="mysql/data/zentao/zt_usergroup.MYI"/>
+			<F N="mysql/data/zentao/zt_userquery.frm"/>
+			<F N="mysql/data/zentao/zt_userquery.MYD"/>
+			<F N="mysql/data/zentao/zt_userquery.MYI"/>
+			<F N="mysql/data/zentao/zt_usertpl.frm"/>
+			<F N="mysql/data/zentao/zt_usertpl.MYD"/>
+			<F N="mysql/data/zentao/zt_usertpl.MYI"/>
+		</Folder>
+		<Folder Name="mysql/share/english">
+			<F N="mysql/share/english/errmsg.sys"/>
+		</Folder>
+		<Folder Name="php">
+			<F N="php/libeay32.dll"/>
+			<F N="php/libsasl.dll"/>
+			<F N="php/php.exe"/>
+			<F N="php/php.gif"/>
+			<F N="php/php.ini"/>
+			<F N="php/php.raw.ini"/>
+			<F N="php/php5apache2_4.dll"/>
+			<F N="php/php5ts.dll"/>
+			<F N="php/ssleay32.dll"/>
+		</Folder>
+		<Folder Name="php/ext">
+			<F N="php/ext/php_bz2.dll"/>
+			<F N="php/ext/php_curl.dll"/>
+			<F N="php/ext/php_gd2.dll"/>
+			<F N="php/ext/php_imap.dll"/>
+			<F N="php/ext/php_ioncube.dll"/>
+			<F N="php/ext/php_ldap.dll"/>
+			<F N="php/ext/php_mbstring.dll"/>
+			<F N="php/ext/php_mysql.dll"/>
+			<F N="php/ext/php_mysqli.dll"/>
+			<F N="php/ext/php_opcache.dll"/>
+			<F N="php/ext/php_openssl.dll"/>
+			<F N="php/ext/php_pdo_mysql.dll"/>
+			<F N="php/ext/php_sockets.dll"/>
+		</Folder>
+		<Folder Name="phpmyadmin">
+			<F N="phpmyadmin/browse_foreigners.php"/>
+			<F N="phpmyadmin/ChangeLog"/>
+			<F N="phpmyadmin/changelog.php"/>
+			<F N="phpmyadmin/chk_rel.php"/>
+			<F N="phpmyadmin/composer.json"/>
+			<F N="phpmyadmin/config.inc.php"/>
+			<F N="phpmyadmin/config.sample.inc.php"/>
+			<F N="phpmyadmin/db_create.php"/>
+			<F N="phpmyadmin/db_datadict.php"/>
+			<F N="phpmyadmin/db_events.php"/>
+			<F N="phpmyadmin/db_export.php"/>
+			<F N="phpmyadmin/db_import.php"/>
+			<F N="phpmyadmin/db_operations.php"/>
+			<F N="phpmyadmin/db_printview.php"/>
+			<F N="phpmyadmin/db_qbe.php"/>
+			<F N="phpmyadmin/db_routines.php"/>
+			<F N="phpmyadmin/db_search.php"/>
+			<F N="phpmyadmin/db_sql.php"/>
+			<F N="phpmyadmin/db_structure.php"/>
+			<F N="phpmyadmin/db_tracking.php"/>
+			<F N="phpmyadmin/db_triggers.php"/>
+			<F N="phpmyadmin/export.php"/>
+			<F N="phpmyadmin/favicon.ico"/>
+			<F N="phpmyadmin/file_echo.php"/>
+			<F N="phpmyadmin/gis_data_editor.php"/>
+			<F N="phpmyadmin/import.php"/>
+			<F N="phpmyadmin/import_status.php"/>
+			<F N="phpmyadmin/index.php"/>
+			<F N="phpmyadmin/LICENSE"/>
+			<F N="phpmyadmin/license.php"/>
+			<F N="phpmyadmin/navigation.php"/>
+			<F N="phpmyadmin/phpinfo.php"/>
+			<F N="phpmyadmin/phpmyadmin.css.php"/>
+			<F N="phpmyadmin/phpunit.xml.nocoverage"/>
+			<F N="phpmyadmin/pmd_display_field.php"/>
+			<F N="phpmyadmin/pmd_general.php"/>
+			<F N="phpmyadmin/pmd_pdf.php"/>
+			<F N="phpmyadmin/pmd_relation_new.php"/>
+			<F N="phpmyadmin/pmd_relation_upd.php"/>
+			<F N="phpmyadmin/pmd_save_pos.php"/>
+			<F N="phpmyadmin/prefs_forms.php"/>
+			<F N="phpmyadmin/prefs_manage.php"/>
+			<F N="phpmyadmin/print.css"/>
+			<F N="phpmyadmin/querywindow.php"/>
+			<F N="phpmyadmin/README"/>
+			<F N="phpmyadmin/RELEASE-DATE-4.0.8"/>
+			<F N="phpmyadmin/robots.txt"/>
+			<F N="phpmyadmin/schema_edit.php"/>
+			<F N="phpmyadmin/schema_export.php"/>
+			<F N="phpmyadmin/server_binlog.php"/>
+			<F N="phpmyadmin/server_collations.php"/>
+			<F N="phpmyadmin/server_databases.php"/>
+			<F N="phpmyadmin/server_engines.php"/>
+			<F N="phpmyadmin/server_export.php"/>
+			<F N="phpmyadmin/server_import.php"/>
+			<F N="phpmyadmin/server_plugins.php"/>
+			<F N="phpmyadmin/server_privileges.php"/>
+			<F N="phpmyadmin/server_replication.php"/>
+			<F N="phpmyadmin/server_sql.php"/>
+			<F N="phpmyadmin/server_status.php"/>
+			<F N="phpmyadmin/server_status_advisor.php"/>
+			<F N="phpmyadmin/server_status_monitor.php"/>
+			<F N="phpmyadmin/server_status_queries.php"/>
+			<F N="phpmyadmin/server_status_variables.php"/>
+			<F N="phpmyadmin/server_variables.php"/>
+			<F N="phpmyadmin/show_config_errors.php"/>
+			<F N="phpmyadmin/sql.php"/>
+			<F N="phpmyadmin/tbl_addfield.php"/>
+			<F N="phpmyadmin/tbl_change.php"/>
+			<F N="phpmyadmin/tbl_chart.php"/>
+			<F N="phpmyadmin/tbl_create.php"/>
+			<F N="phpmyadmin/tbl_export.php"/>
+			<F N="phpmyadmin/tbl_get_field.php"/>
+			<F N="phpmyadmin/tbl_gis_visualization.php"/>
+			<F N="phpmyadmin/tbl_import.php"/>
+			<F N="phpmyadmin/tbl_indexes.php"/>
+			<F N="phpmyadmin/tbl_move_copy.php"/>
+			<F N="phpmyadmin/tbl_operations.php"/>
+			<F N="phpmyadmin/tbl_printview.php"/>
+			<F N="phpmyadmin/tbl_relation.php"/>
+			<F N="phpmyadmin/tbl_replace.php"/>
+			<F N="phpmyadmin/tbl_row_action.php"/>
+			<F N="phpmyadmin/tbl_select.php"/>
+			<F N="phpmyadmin/tbl_sql.php"/>
+			<F N="phpmyadmin/tbl_structure.php"/>
+			<F N="phpmyadmin/tbl_tracking.php"/>
+			<F N="phpmyadmin/tbl_triggers.php"/>
+			<F N="phpmyadmin/tbl_zoom_select.php"/>
+			<F N="phpmyadmin/themes.php"/>
+			<F N="phpmyadmin/transformation_overview.php"/>
+			<F N="phpmyadmin/transformation_wrapper.php"/>
+			<F N="phpmyadmin/url.php"/>
+			<F N="phpmyadmin/user_password.php"/>
+			<F N="phpmyadmin/version_check.php"/>
+			<F N="phpmyadmin/view_create.php"/>
+			<F N="phpmyadmin/view_operations.php"/>
+			<F N="phpmyadmin/webapp.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js">
+			<F N="phpmyadmin/js/ajax.js"/>
+			<F N="phpmyadmin/js/chart.js"/>
+			<F N="phpmyadmin/js/common.js"/>
+			<F N="phpmyadmin/js/config.js"/>
+			<F N="phpmyadmin/js/cross_framing_protection.js"/>
+			<F N="phpmyadmin/js/db_operations.js"/>
+			<F N="phpmyadmin/js/db_search.js"/>
+			<F N="phpmyadmin/js/db_structure.js"/>
+			<F N="phpmyadmin/js/export.js"/>
+			<F N="phpmyadmin/js/functions.js"/>
+			<F N="phpmyadmin/js/get_image.js.php"/>
+			<F N="phpmyadmin/js/get_scripts.js.php"/>
+			<F N="phpmyadmin/js/gis_data_editor.js"/>
+			<F N="phpmyadmin/js/import.js"/>
+			<F N="phpmyadmin/js/indexes.js"/>
+			<F N="phpmyadmin/js/keyhandler.js"/>
+			<F N="phpmyadmin/js/makegrid.js"/>
+			<F N="phpmyadmin/js/messages.php"/>
+			<F N="phpmyadmin/js/navigation.js"/>
+			<F N="phpmyadmin/js/OpenStreetMap.js"/>
+			<F N="phpmyadmin/js/querywindow.js"/>
+			<F N="phpmyadmin/js/replication.js"/>
+			<F N="phpmyadmin/js/rte.js"/>
+			<F N="phpmyadmin/js/server_databases.js"/>
+			<F N="phpmyadmin/js/server_plugins.js"/>
+			<F N="phpmyadmin/js/server_privileges.js"/>
+			<F N="phpmyadmin/js/server_status.js"/>
+			<F N="phpmyadmin/js/server_status_advisor.js"/>
+			<F N="phpmyadmin/js/server_status_monitor.js"/>
+			<F N="phpmyadmin/js/server_status_queries.js"/>
+			<F N="phpmyadmin/js/server_status_sorter.js"/>
+			<F N="phpmyadmin/js/server_status_variables.js"/>
+			<F N="phpmyadmin/js/server_variables.js"/>
+			<F N="phpmyadmin/js/sql.js"/>
+			<F N="phpmyadmin/js/tbl_change.js"/>
+			<F N="phpmyadmin/js/tbl_chart.js"/>
+			<F N="phpmyadmin/js/tbl_gis_visualization.js"/>
+			<F N="phpmyadmin/js/tbl_relation.js"/>
+			<F N="phpmyadmin/js/tbl_select.js"/>
+			<F N="phpmyadmin/js/tbl_structure.js"/>
+			<F N="phpmyadmin/js/tbl_zoom_plot_jqplot.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/canvg">
+			<F N="phpmyadmin/js/canvg/canvg.js"/>
+			<F N="phpmyadmin/js/canvg/flashcanvas.js"/>
+			<F N="phpmyadmin/js/canvg/flashcanvas.swf"/>
+			<F N="phpmyadmin/js/canvg/MIT-LICENSE.txt"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/codemirror">
+			<F N="phpmyadmin/js/codemirror/LICENSE"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/codemirror/lib">
+			<F N="phpmyadmin/js/codemirror/lib/codemirror.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/codemirror/mode/mysql">
+			<F N="phpmyadmin/js/codemirror/mode/mysql/mysql.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jqplot">
+			<F N="phpmyadmin/js/jqplot/excanvas.js"/>
+			<F N="phpmyadmin/js/jqplot/jquery.jqplot.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jqplot/plugins">
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.barRenderer.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.byteFormatter.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.canvasAxisLabelRenderer.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.canvasTextRenderer.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.categoryAxisRenderer.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.cursor.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.dateAxisRenderer.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.highlighter.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.pieRenderer.js"/>
+			<F N="phpmyadmin/js/jqplot/plugins/jqplot.pointLabels.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jquery">
+			<F N="phpmyadmin/js/jquery/jquery-1.8.3.min.js"/>
+			<F N="phpmyadmin/js/jquery/jquery-ui-1.9.2.custom.min.js"/>
+			<F N="phpmyadmin/js/jquery/jquery-ui-timepicker-addon.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.ba-hashchange-1.3.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.cookie.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.debounce-1.0.5.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.event.drag-2.2.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.fullscreen.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.json-2.4.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.menuResizer-1.0.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.mousewheel.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.sortableTable.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.sprintf.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.svg.js"/>
+			<F N="phpmyadmin/js/jquery/jquery.tablesorter.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jquery/src">
+			<F N="phpmyadmin/js/jquery/src/README"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jquery/src/jquery">
+			<F N="phpmyadmin/js/jquery/src/jquery/ajax.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/attributes.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/callbacks.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/core.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/css.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/data.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/deferred.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/deprecated.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/dimensions.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/effects.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/event-alias.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/event.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/intro.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/manipulation.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/offset.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/outro.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/queue.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/selector-native.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/serialize.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/sizzle-jquery.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/support.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/traversing.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/wrap.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jquery/src/jquery-ui">
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.accordion.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.autocomplete.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.button.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.core.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.datepicker.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.dialog.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.draggable.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.droppable.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-blind.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-bounce.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-clip.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-drop.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-explode.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-fade.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-fold.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-highlight.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-pulsate.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-scale.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-shake.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-slide.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect-transfer.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.effect.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.menu.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.mouse.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.position.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.progressbar.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.resizable.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.selectable.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.slider.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.sortable.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.spinner.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.tabs.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.tooltip.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery-ui/jquery.ui.widget.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/jquery/src/jquery/ajax">
+			<F N="phpmyadmin/js/jquery/src/jquery/ajax/jsonp.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/ajax/script.js"/>
+			<F N="phpmyadmin/js/jquery/src/jquery/ajax/xhr.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/js/pmd">
+			<F N="phpmyadmin/js/pmd/ajax.js"/>
+			<F N="phpmyadmin/js/pmd/history.js"/>
+			<F N="phpmyadmin/js/pmd/iecanvas.js"/>
+			<F N="phpmyadmin/js/pmd/init.js"/>
+			<F N="phpmyadmin/js/pmd/move.js"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries">
+			<F N="phpmyadmin/libraries/Advisor.class.php"/>
+			<F N="phpmyadmin/libraries/advisory_rules.txt"/>
+			<F N="phpmyadmin/libraries/bookmark.lib.php"/>
+			<F N="phpmyadmin/libraries/build_html_for_db.lib.php"/>
+			<F N="phpmyadmin/libraries/charset_conversion.lib.php"/>
+			<F N="phpmyadmin/libraries/check_user_privileges.lib.php"/>
+			<F N="phpmyadmin/libraries/cleanup.lib.php"/>
+			<F N="phpmyadmin/libraries/common.inc.php"/>
+			<F N="phpmyadmin/libraries/Config.class.php"/>
+			<F N="phpmyadmin/libraries/config.default.php"/>
+			<F N="phpmyadmin/libraries/config.values.php"/>
+			<F N="phpmyadmin/libraries/core.lib.php"/>
+			<F N="phpmyadmin/libraries/data_dictionary_relations.lib.php"/>
+			<F N="phpmyadmin/libraries/database_interface.lib.php"/>
+			<F N="phpmyadmin/libraries/db_common.inc.php"/>
+			<F N="phpmyadmin/libraries/db_info.inc.php"/>
+			<F N="phpmyadmin/libraries/db_table_exists.lib.php"/>
+			<F N="phpmyadmin/libraries/DBQbe.class.php"/>
+			<F N="phpmyadmin/libraries/DbSearch.class.php"/>
+			<F N="phpmyadmin/libraries/display_change_password.lib.php"/>
+			<F N="phpmyadmin/libraries/display_create_database.lib.php"/>
+			<F N="phpmyadmin/libraries/display_create_table.lib.php"/>
+			<F N="phpmyadmin/libraries/display_export.lib.php"/>
+			<F N="phpmyadmin/libraries/display_git_revision.lib.php"/>
+			<F N="phpmyadmin/libraries/display_import.lib.php"/>
+			<F N="phpmyadmin/libraries/display_import_ajax.lib.php"/>
+			<F N="phpmyadmin/libraries/display_select_lang.lib.php"/>
+			<F N="phpmyadmin/libraries/DisplayResults.class.php"/>
+			<F N="phpmyadmin/libraries/Error.class.php"/>
+			<F N="phpmyadmin/libraries/error.inc.php"/>
+			<F N="phpmyadmin/libraries/Error_Handler.class.php"/>
+			<F N="phpmyadmin/libraries/File.class.php"/>
+			<F N="phpmyadmin/libraries/file_listing.lib.php"/>
+			<F N="phpmyadmin/libraries/Footer.class.php"/>
+			<F N="phpmyadmin/libraries/gis_visualization.lib.php"/>
+			<F N="phpmyadmin/libraries/Header.class.php"/>
+			<F N="phpmyadmin/libraries/iconv_wrapper.lib.php"/>
+			<F N="phpmyadmin/libraries/import.lib.php"/>
+			<F N="phpmyadmin/libraries/Index.class.php"/>
+			<F N="phpmyadmin/libraries/index.lib.php"/>
+			<F N="phpmyadmin/libraries/information_schema_relations.lib.php"/>
+			<F N="phpmyadmin/libraries/insert_edit.lib.php"/>
+			<F N="phpmyadmin/libraries/ip_allow_deny.lib.php"/>
+			<F N="phpmyadmin/libraries/js_escape.lib.php"/>
+			<F N="phpmyadmin/libraries/kanji-encoding.lib.php"/>
+			<F N="phpmyadmin/libraries/language_stats.inc.php"/>
+			<F N="phpmyadmin/libraries/List.class.php"/>
+			<F N="phpmyadmin/libraries/List_Database.class.php"/>
+			<F N="phpmyadmin/libraries/logging.lib.php"/>
+			<F N="phpmyadmin/libraries/Menu.class.php"/>
+			<F N="phpmyadmin/libraries/Message.class.php"/>
+			<F N="phpmyadmin/libraries/mime.lib.php"/>
+			<F N="phpmyadmin/libraries/mult_submits.inc.php"/>
+			<F N="phpmyadmin/libraries/mysql_charsets.lib.php"/>
+			<F N="phpmyadmin/libraries/opendocument.lib.php"/>
+			<F N="phpmyadmin/libraries/operations.lib.php"/>
+			<F N="phpmyadmin/libraries/OutputBuffering.class.php"/>
+			<F N="phpmyadmin/libraries/parse_analyze.lib.php"/>
+			<F N="phpmyadmin/libraries/Partition.class.php"/>
+			<F N="phpmyadmin/libraries/PDF.class.php"/>
+			<F N="phpmyadmin/libraries/plugin_interface.lib.php"/>
+			<F N="phpmyadmin/libraries/PMA.php"/>
+			<F N="phpmyadmin/libraries/pmd_common.php"/>
+			<F N="phpmyadmin/libraries/RecentTable.class.php"/>
+			<F N="phpmyadmin/libraries/relation.lib.php"/>
+			<F N="phpmyadmin/libraries/relation_cleanup.lib.php"/>
+			<F N="phpmyadmin/libraries/replication.inc.php"/>
+			<F N="phpmyadmin/libraries/replication_gui.lib.php"/>
+			<F N="phpmyadmin/libraries/Response.class.php"/>
+			<F N="phpmyadmin/libraries/sanitizing.lib.php"/>
+			<F N="phpmyadmin/libraries/Scripts.class.php"/>
+			<F N="phpmyadmin/libraries/select_lang.lib.php"/>
+			<F N="phpmyadmin/libraries/select_server.lib.php"/>
+			<F N="phpmyadmin/libraries/server_common.inc.php"/>
+			<F N="phpmyadmin/libraries/server_privileges.lib.php"/>
+			<F N="phpmyadmin/libraries/server_variables_doc.php"/>
+			<F N="phpmyadmin/libraries/ServerStatusData.class.php"/>
+			<F N="phpmyadmin/libraries/session.inc.php"/>
+			<F N="phpmyadmin/libraries/special_schema_links.lib.php"/>
+			<F N="phpmyadmin/libraries/sql_query_form.lib.php"/>
+			<F N="phpmyadmin/libraries/sqlparser.data.php"/>
+			<F N="phpmyadmin/libraries/sqlparser.lib.php"/>
+			<F N="phpmyadmin/libraries/sqlvalidator.class.php"/>
+			<F N="phpmyadmin/libraries/sqlvalidator.lib.php"/>
+			<F N="phpmyadmin/libraries/StorageEngine.class.php"/>
+			<F N="phpmyadmin/libraries/string.lib.php"/>
+			<F N="phpmyadmin/libraries/string_mb.lib.php"/>
+			<F N="phpmyadmin/libraries/string_native.lib.php"/>
+			<F N="phpmyadmin/libraries/string_type_ctype.lib.php"/>
+			<F N="phpmyadmin/libraries/string_type_native.lib.php"/>
+			<F N="phpmyadmin/libraries/structure.lib.php"/>
+			<F N="phpmyadmin/libraries/sysinfo.lib.php"/>
+			<F N="phpmyadmin/libraries/Table.class.php"/>
+			<F N="phpmyadmin/libraries/TableSearch.class.php"/>
+			<F N="phpmyadmin/libraries/tbl_columns_definition_form.inc.php"/>
+			<F N="phpmyadmin/libraries/tbl_common.inc.php"/>
+			<F N="phpmyadmin/libraries/tbl_info.inc.php"/>
+			<F N="phpmyadmin/libraries/tbl_views.lib.php"/>
+			<F N="phpmyadmin/libraries/Theme.class.php"/>
+			<F N="phpmyadmin/libraries/Theme_Manager.class.php"/>
+			<F N="phpmyadmin/libraries/Tracker.class.php"/>
+			<F N="phpmyadmin/libraries/transformations.lib.php"/>
+			<F N="phpmyadmin/libraries/Types.class.php"/>
+			<F N="phpmyadmin/libraries/url_generating.lib.php"/>
+			<F N="phpmyadmin/libraries/user_preferences.inc.php"/>
+			<F N="phpmyadmin/libraries/user_preferences.lib.php"/>
+			<F N="phpmyadmin/libraries/Util.class.php"/>
+			<F N="phpmyadmin/libraries/vendor_config.php"/>
+			<F N="phpmyadmin/libraries/zip.lib.php"/>
+			<F N="phpmyadmin/libraries/zip_extension.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/bfShapeFiles">
+			<F N="phpmyadmin/libraries/bfShapeFiles/ShapeFile.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/config">
+			<F N="phpmyadmin/libraries/config/config_functions.lib.php"/>
+			<F N="phpmyadmin/libraries/config/ConfigFile.class.php"/>
+			<F N="phpmyadmin/libraries/config/Form.class.php"/>
+			<F N="phpmyadmin/libraries/config/FormDisplay.class.php"/>
+			<F N="phpmyadmin/libraries/config/FormDisplay.tpl.php"/>
+			<F N="phpmyadmin/libraries/config/messages.inc.php"/>
+			<F N="phpmyadmin/libraries/config/setup.forms.php"/>
+			<F N="phpmyadmin/libraries/config/user_preferences.forms.php"/>
+			<F N="phpmyadmin/libraries/config/validate.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/dbi">
+			<F N="phpmyadmin/libraries/dbi/drizzle-wrappers.lib.php"/>
+			<F N="phpmyadmin/libraries/dbi/drizzle.dbi.lib.php"/>
+			<F N="phpmyadmin/libraries/dbi/dummy.lib.php"/>
+			<F N="phpmyadmin/libraries/dbi/mysql.dbi.lib.php"/>
+			<F N="phpmyadmin/libraries/dbi/mysqli.dbi.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/engines">
+			<F N="phpmyadmin/libraries/engines/bdb.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/berkeleydb.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/binlog.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/innobase.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/innodb.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/memory.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/merge.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/mrg_myisam.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/myisam.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/ndbcluster.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/pbxt.lib.php"/>
+			<F N="phpmyadmin/libraries/engines/performance_schema.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/gis">
+			<F N="phpmyadmin/libraries/gis/pma_gis_factory.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_geometry.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_geometrycollection.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_linestring.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_multilinestring.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_multipoint.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_multipolygon.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_point.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_polygon.php"/>
+			<F N="phpmyadmin/libraries/gis/pma_gis_visualization.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/navigation">
+			<F N="phpmyadmin/libraries/navigation/Navigation.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/NavigationHeader.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/NavigationTree.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/NodeFactory.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/navigation/Nodes">
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Column.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Column_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Database.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Event.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Event_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Function.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Function_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Index.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Index_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Procedure.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Procedure_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Table.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Table_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Trigger.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_Trigger_Container.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_View.class.php"/>
+			<F N="phpmyadmin/libraries/navigation/Nodes/Node_View_Container.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/php-gettext">
+			<F N="phpmyadmin/libraries/php-gettext/gettext.inc"/>
+			<F N="phpmyadmin/libraries/php-gettext/gettext.php"/>
+			<F N="phpmyadmin/libraries/php-gettext/streams.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/phpseclib/Crypt">
+			<F N="phpmyadmin/libraries/phpseclib/Crypt/AES.php"/>
+			<F N="phpmyadmin/libraries/phpseclib/Crypt/Rijndael.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins">
+			<F N="phpmyadmin/libraries/plugins/AuthenticationPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/ExportPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/ImportPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/PluginManager.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/PluginObserver.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/TransformationsInterface.int.php"/>
+			<F N="phpmyadmin/libraries/plugins/TransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/UploadInterface.int.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/auth">
+			<F N="phpmyadmin/libraries/plugins/auth/AuthenticationConfig.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/auth/AuthenticationCookie.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/auth/AuthenticationHttp.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/auth/AuthenticationSignon.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/auth/swekey">
+			<F N="phpmyadmin/libraries/plugins/auth/swekey/authentication.inc.php"/>
+			<F N="phpmyadmin/libraries/plugins/auth/swekey/musbe-ca.crt"/>
+			<F N="phpmyadmin/libraries/plugins/auth/swekey/swekey.auth.lib.php"/>
+			<F N="phpmyadmin/libraries/plugins/auth/swekey/swekey.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/export">
+			<F N="phpmyadmin/libraries/plugins/export/ExportCodegen.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportCsv.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportExcel.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportHtmlword.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportJson.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportLatex.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportMediawiki.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportOds.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportOdt.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportPdf.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportPhparray.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportSql.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportTexytext.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportXml.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/ExportYaml.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/PMA_ExportPdf.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/export/README"/>
+			<F N="phpmyadmin/libraries/plugins/export/TableProperty.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/import">
+			<F N="phpmyadmin/libraries/plugins/import/AbstractImportCsv.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportCsv.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportLdi.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportMediawiki.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportOds.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportShp.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportSql.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ImportXml.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/README"/>
+			<F N="phpmyadmin/libraries/plugins/import/ShapeFile.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/ShapeRecord.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/import/upload">
+			<F N="phpmyadmin/libraries/plugins/import/upload/UploadApc.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/upload/UploadNoplugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/upload/UploadProgress.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/import/upload/UploadSession.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/transformations">
+			<F N="phpmyadmin/libraries/plugins/transformations/Application_Octetstream_Download.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Application_Octetstream_Hex.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/generator_main_class.sh"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/generator_plugin.sh"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Image_JPEG_Inline.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Image_JPEG_Link.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Image_PNG_Inline.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/README"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/TEMPLATE"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/TEMPLATE_ABSTRACT"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Append.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Dateformat.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_External.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Formatted.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Imagelink.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Link.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Longtoipv4.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Sql.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/Text_Plain_Substring.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/plugins/transformations/abstract">
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/AppendTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/DateFormatTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/DownloadTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/ExternalTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/FormattedTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/HexTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/ImageLinkTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/InlineTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/LongToIPv4TransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/SQLTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/SubstringTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/TextImageLinkTransformationsPlugin.class.php"/>
+			<F N="phpmyadmin/libraries/plugins/transformations/abstract/TextLinkTransformationsPlugin.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/properties">
+			<F N="phpmyadmin/libraries/properties/PropertyItem.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/properties/options">
+			<F N="phpmyadmin/libraries/properties/options/OptionsPropertyGroup.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/OptionsPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/OptionsPropertyOneItem.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/properties/options/groups">
+			<F N="phpmyadmin/libraries/properties/options/groups/OptionsPropertyMainGroup.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/groups/OptionsPropertyRootGroup.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/groups/OptionsPropertySubgroup.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/properties/options/items">
+			<F N="phpmyadmin/libraries/properties/options/items/BoolPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/items/DocPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/items/HiddenPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/items/MessageOnlyPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/items/RadioPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/items/SelectPropertyItem.class.php"/>
+			<F N="phpmyadmin/libraries/properties/options/items/TextPropertyItem.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/properties/plugins">
+			<F N="phpmyadmin/libraries/properties/plugins/ExportPluginProperties.class.php"/>
+			<F N="phpmyadmin/libraries/properties/plugins/ImportPluginProperties.class.php"/>
+			<F N="phpmyadmin/libraries/properties/plugins/PluginPropertyItem.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/rte">
+			<F N="phpmyadmin/libraries/rte/rte_events.lib.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_export.lib.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_footer.lib.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_list.lib.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_main.inc.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_routines.lib.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_triggers.lib.php"/>
+			<F N="phpmyadmin/libraries/rte/rte_words.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/schema">
+			<F N="phpmyadmin/libraries/schema/Dia_Relation_Schema.class.php"/>
+			<F N="phpmyadmin/libraries/schema/Eps_Relation_Schema.class.php"/>
+			<F N="phpmyadmin/libraries/schema/Export_Relation_Schema.class.php"/>
+			<F N="phpmyadmin/libraries/schema/Pdf_Relation_Schema.class.php"/>
+			<F N="phpmyadmin/libraries/schema/Svg_Relation_Schema.class.php"/>
+			<F N="phpmyadmin/libraries/schema/User_Schema.class.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/tcpdf">
+			<F N="phpmyadmin/libraries/tcpdf/LICENSE.TXT"/>
+			<F N="phpmyadmin/libraries/tcpdf/README.TXT"/>
+			<F N="phpmyadmin/libraries/tcpdf/tcpdf.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/tcpdf_autoconfig.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/tcpdf/config">
+			<F N="phpmyadmin/libraries/tcpdf/config/tcpdf_config.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/tcpdf/fonts">
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavusans.ctg.z"/>
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavusans.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavusans.z"/>
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavusansb.ctg.z"/>
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavusansb.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavusansb.z"/>
+			<F N="phpmyadmin/libraries/tcpdf/fonts/helvetica.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/tcpdf/fonts/dejavu-fonts-ttf-2.33">
+			<F N="phpmyadmin/libraries/tcpdf/fonts/dejavu-fonts-ttf-2.33/LICENSE"/>
+		</Folder>
+		<Folder Name="phpmyadmin/libraries/tcpdf/include">
+			<F N="phpmyadmin/libraries/tcpdf/include/tcpdf_colors.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/include/tcpdf_font_data.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/include/tcpdf_fonts.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/include/tcpdf_images.php"/>
+			<F N="phpmyadmin/libraries/tcpdf/include/tcpdf_static.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/locale/en_GB/LC_MESSAGES">
+			<F N="phpmyadmin/locale/en_GB/LC_MESSAGES/phpmyadmin.mo"/>
+		</Folder>
+		<Folder Name="phpmyadmin/locale/zh_CN/LC_MESSAGES">
+			<F N="phpmyadmin/locale/zh_CN/LC_MESSAGES/phpmyadmin.mo"/>
+		</Folder>
+		<Folder Name="phpmyadmin/locale/zh_TW/LC_MESSAGES">
+			<F N="phpmyadmin/locale/zh_TW/LC_MESSAGES/phpmyadmin.mo"/>
+		</Folder>
+		<Folder Name="phpmyadmin/setup">
+			<F N="phpmyadmin/setup/ajax.js"/>
+			<F N="phpmyadmin/setup/config.php"/>
+			<F N="phpmyadmin/setup/index.php"/>
+			<F N="phpmyadmin/setup/scripts.js"/>
+			<F N="phpmyadmin/setup/styles.css"/>
+			<F N="phpmyadmin/setup/validate.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/setup/frames">
+			<F N="phpmyadmin/setup/frames/config.inc.php"/>
+			<F N="phpmyadmin/setup/frames/form.inc.php"/>
+			<F N="phpmyadmin/setup/frames/index.inc.php"/>
+			<F N="phpmyadmin/setup/frames/menu.inc.php"/>
+			<F N="phpmyadmin/setup/frames/servers.inc.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/setup/lib">
+			<F N="phpmyadmin/setup/lib/common.inc.php"/>
+			<F N="phpmyadmin/setup/lib/ConfigGenerator.class.php"/>
+			<F N="phpmyadmin/setup/lib/form_processing.lib.php"/>
+			<F N="phpmyadmin/setup/lib/index.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes">
+			<F N="phpmyadmin/themes/dot.gif"/>
+			<F N="phpmyadmin/themes/sprites.css.php"/>
+			<F N="phpmyadmin/themes/svg_gradient.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes/pmahomme">
+			<F N="phpmyadmin/themes/pmahomme/info.inc.php"/>
+			<F N="phpmyadmin/themes/pmahomme/layout.inc.php"/>
+			<F N="phpmyadmin/themes/pmahomme/screen.png"/>
+			<F N="phpmyadmin/themes/pmahomme/sprites.lib.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes/pmahomme/css">
+			<F N="phpmyadmin/themes/pmahomme/css/codemirror.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/common.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/enum_editor.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/gis.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/jqplot.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/navigation.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/pmd.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/resizable-menu.css.php"/>
+			<F N="phpmyadmin/themes/pmahomme/css/rte.css.php"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes/pmahomme/img">
+			<F N="phpmyadmin/themes/pmahomme/img/ajax_clock_small.gif"/>
+			<F N="phpmyadmin/themes/pmahomme/img/arrow_ltr.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/arrow_rtl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/asc_order.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_bookmark.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_browse.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_calendar.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_chart.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_close.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_column_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_comment.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_dbstatistics.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_deltbl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_docs.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_docsql.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_drop.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_edit.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_empty.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_engine.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_event_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_events.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_export.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_firstpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_ftext.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_globe.gif"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_group.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_help.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_home.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_import.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_index.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_index_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_info.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_inline_edit.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_insrow.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_lastpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_minus.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_more.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_move.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_newdb.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_newtbl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_nextpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_pdfdoc.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_plus.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_prevpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_primary.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_print.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_props.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_relations.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_routine_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_routines.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_save.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_sbrowse.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_sdb.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_search.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_selboard.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_select.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_snewtbl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_spatial.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_sql.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_sqldoc.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_sqlhelp.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_table_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_tblanalyse.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_tblexport.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_tblimport.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_tblops.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_tbloptimize.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_tipp.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_trigger_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_triggers.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_unique.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_usradd.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_usrcheck.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_usrdrop.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_usredit.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_usrlist.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_view.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_view_add.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/b_views.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_browse.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_deltbl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_drop.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_edit.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_empty.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_export.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_firstpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_ftext.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_index.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_insrow.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_lastpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_nextpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_prevpage.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_primary.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_sbrowse.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_select.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_spatial.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/bd_unique.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/col_drop.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/col_pointer.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/col_pointer_ver.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/database.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/east-mini.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/error.ico"/>
+			<F N="phpmyadmin/themes/pmahomme/img/eye.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/eye_grey.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/item.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/left_nav_bg.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/logo_left.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/logo_right.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/more.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_data.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_data_hovered.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_data_selected.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_data_selected_hovered.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_struct.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_struct_hovered.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_struct_selected.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/new_struct_selected_hovered.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/north-mini.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pause.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/php_sym.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/play.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pma_logo2.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_asc.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_asci.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_attention.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_cancel.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_cancel2.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_cog.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_db.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_desc.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_error.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_error2.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_fulltext.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_host.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_info.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_lang.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_loggoff.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_notice.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_okay.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_partialtext.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_passwd.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_process.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_really.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_reload.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_replication.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_rights.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_sortable.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_status.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_success.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_sync.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_tbl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_theme.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_top.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_vars.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/s_views.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/south-mini.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/spacer.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/sprites.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/toggle-ltr.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/toggle-rtl.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/vertical_line.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/west-mini.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/window-new.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/zoom-minus-mini.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/zoom-plus-mini.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/zoom-world-mini.png"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes/pmahomme/img/pmd">
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/1.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/2.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/2leftarrow.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/2leftarrow_m.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/2rightarrow.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/2rightarrow_m.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/3.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/4.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/5.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/6.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/7.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/8.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/and_icon.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/ang_direct.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/bord.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/bottom.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/def.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/display_field.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/downarrow1.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/downarrow2.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/downarrow2_m.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/exec.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/exec_small.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/exitFullscreen.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/favicon.ico"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/Field_small.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/Field_small_char.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/Field_small_date.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/Field_small_int.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/FieldKey_small.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/grid.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/Header.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/Header_Linked.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/help.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/help_relation.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/left_panel_butt.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/left_panel_tab.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/minus.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/or_icon.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/pdf.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/plus.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/query_builder.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/relation.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/reload.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/resize.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/rightarrow1.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/rightarrow2.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/save.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/small_tab.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/table.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/toggle_lines.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/top_panel.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/uparrow2_m.png"/>
+			<F N="phpmyadmin/themes/pmahomme/img/pmd/viewInFullscreen.png"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes/pmahomme/jquery">
+			<F N="phpmyadmin/themes/pmahomme/jquery/jquery-ui-1.9.2.custom.css"/>
+		</Folder>
+		<Folder Name="phpmyadmin/themes/pmahomme/jquery/images">
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_flat_75_ffffff_40x100.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_65_ffffff_1x400.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_75_dadada_1x400.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_95_fef1ec_1x400.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-icons_222222_256x240.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-icons_2e83ff_256x240.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-icons_454545_256x240.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-icons_888888_256x240.png"/>
+			<F N="phpmyadmin/themes/pmahomme/jquery/images/ui-icons_cd0a0a_256x240.png"/>
+		</Folder>
+		<Folder Name="runner">
+			<F N="runner/config.ini"/>
+			<F N="runner/config.user.json"/>
+			<F N="runner/vc2008_detector.bat"/>
+			<F N="runner/vcredist_x86.exe"/>
+		</Folder>
+		<Folder Name="runner/languages">
+			<F N="runner/languages/en.ini"/>
+			<F N="runner/languages/zh_cn.ini"/>
+			<F N="runner/languages/zh_tw.ini"/>
+		</Folder>
+		<Folder Name="runner/res/apache/conf">
+			<F N="runner/res/apache/conf/httpd.conf"/>
+		</Folder>
+		<Folder Name="runner/res/mysql">
+			<F N="runner/res/mysql/my.ini"/>
+		</Folder>
+		<Folder Name="runner/res/php">
+			<F N="runner/res/php/php.ini"/>
+		</Folder>
+		<Folder Name="services">
+			<F N="services/install.bat"/>
+			<F N="services/remove.bat"/>
+			<F N="services/set.php"/>
+			<F N="services/start.bat"/>
+			<F N="services/stop.bat"/>
+		</Folder>
+		<Folder Name="silksvn">
+			<F N="silksvn/libsvnjavahl-1.dll"/>
+			<F N="silksvn/SlikSvn-DB44-20-win32.dll"/>
+			<F N="silksvn/SlikSvn-libapr-1.dll"/>
+			<F N="silksvn/SlikSvn-libaprutil-1.dll"/>
+			<F N="silksvn/SlikSvn-libeay32.dll"/>
+			<F N="silksvn/SlikSvn-libintl-Win32.dll"/>
+			<F N="silksvn/SlikSvn-libintl.dll"/>
+			<F N="silksvn/SlikSvn-libsasl21.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_client-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_delta-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_diff-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_fs-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_ra-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_repos-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_subr-1.dll"/>
+			<F N="silksvn/SlikSvn-libsvn_wc-1.dll"/>
+			<F N="silksvn/SlikSvn-Sasl21-23-win32.dll"/>
+			<F N="silksvn/SlikSvn-ssleay32.dll"/>
+			<F N="silksvn/SlikSvn-svn_client-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_delta-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_diff-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_fs-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_ra-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_repos-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_subr-1.dll"/>
+			<F N="silksvn/SlikSvn-svn_wc-1.dll"/>
+			<F N="silksvn/svn.exe"/>
+			<F N="silksvn/svnadmin.exe"/>
+			<F N="silksvn/svndumpfilter.exe"/>
+			<F N="silksvn/svnlook.exe"/>
+			<F N="silksvn/svnmucc.exe"/>
+			<F N="silksvn/svnrdump.exe"/>
+			<F N="silksvn/svnsync.exe"/>
+			<F N="silksvn/svnversion.exe"/>
+		</Folder>
+		<Folder Name="tmp">
+			<F N="tmp/sess_0d8dvgaeruao1r1qo2khhmvhk5"/>
+			<F N="tmp/sess_45arosrh394ongb4p6ia4m22j0"/>
+			<F N="tmp/sess_4ugvg4d865fb9r47g396gvg21psque91"/>
+			<F N="tmp/sess_819fcmj66bbhhldafvs7k8jdo4"/>
+			<F N="tmp/sess_iel3u6ahiap94em8uj1bjgsfd0"/>
+			<F N="tmp/sess_lvufetokojsrvugijgs38k6tl7"/>
+			<F N="tmp/sess_p42i08e6srmu565k9qhb23ph12"/>
+		</Folder>
+		<Folder Name="zentao">
+			<F N="zentao/.flow"/>
+			<F N="zentao/VERSION"/>
+		</Folder>
+		<Folder Name="zentao/bin">
+			<F N="zentao/bin/init.sh"/>
+			<F N="zentao/bin/init.bat"/>
+			<F N="zentao/bin/ztcli"/>
+		</Folder>
+		<Folder Name="zentao/bin/php">
+			<F N="zentao/bin/php/backup.php"/>
+			<F N="zentao/bin/php/checkyaml.php"/>
+			<F N="zentao/bin/php/crond.php"/>
+		</Folder>
+		<Folder Name="zentao/config">
+			<F N="zentao/config/config.php"/>
+			<F N="zentao/config/my.php"/>
+		</Folder>
+		<Folder Name="zentao/db">
+			<F N="zentao/db/demo.sql"/>
+			<F N="zentao/db/update0.1.sql"/>
+			<F N="zentao/db/update0.3.sql"/>
+			<F N="zentao/db/update0.4.sql"/>
+			<F N="zentao/db/update0.5.sql"/>
+			<F N="zentao/db/update0.6.sql"/>
+			<F N="zentao/db/update1.0.1.sql"/>
+			<F N="zentao/db/update1.0.beta.sql"/>
+			<F N="zentao/db/update1.0.rc1.sql"/>
+			<F N="zentao/db/update1.1.sql"/>
+			<F N="zentao/db/update1.2.sql"/>
+			<F N="zentao/db/update1.3.sql"/>
+			<F N="zentao/db/update1.4.sql"/>
+			<F N="zentao/db/update1.5.sql"/>
+			<F N="zentao/db/update2.0.sql"/>
+			<F N="zentao/db/update2.1.sql"/>
+			<F N="zentao/db/update2.2.sql"/>
+			<F N="zentao/db/update2.3.sql"/>
+			<F N="zentao/db/update2.4.sql"/>
+			<F N="zentao/db/update3.0.beta1.sql"/>
+			<F N="zentao/db/update3.1.sql"/>
+			<F N="zentao/db/update3.2.1.sql"/>
+			<F N="zentao/db/update3.2.sql"/>
+			<F N="zentao/db/update3.3.sql"/>
+			<F N="zentao/db/update4.0.1.sql"/>
+			<F N="zentao/db/update4.0.beta1.sql"/>
+			<F N="zentao/db/update4.0.beta2.sql"/>
+			<F N="zentao/db/update4.0.sql"/>
+			<F N="zentao/db/update4.1.sql"/>
+			<F N="zentao/db/update4.2.sql"/>
+			<F N="zentao/db/update4.3.sql"/>
+			<F N="zentao/db/update5.2.1.sql"/>
+			<F N="zentao/db/update6.0.beta1.sql"/>
+			<F N="zentao/db/update6.0.sql"/>
+			<F N="zentao/db/update6.1.sql"/>
+			<F N="zentao/db/win2unix.sql"/>
+			<F N="zentao/db/zentao.sql"/>
+		</Folder>
+		<Folder Name="zentao/doc">
+			<F N="zentao/doc/CHANGELOG"/>
+			<F N="zentao/doc/COPYING"/>
+			<F N="zentao/doc/COPYING.LESSER"/>
+			<F N="zentao/doc/FLOWCHART.url"/>
+			<F N="zentao/doc/HELP.url"/>
+			<F N="zentao/doc/INSTALL"/>
+			<F N="zentao/doc/README"/>
+			<F N="zentao/doc/README.zh_CN"/>
+			<F N="zentao/doc/THANKS"/>
+			<F N="zentao/doc/THIRDPARTY"/>
+			<F N="zentao/doc/TODO"/>
+			<F N="zentao/doc/UPGRADE"/>
+			<F N="zentao/doc/VIDEO.url"/>
+		</Folder>
+		<Folder Name="zentao/framework">
+			<F N="zentao/framework/control.class.php"/>
+			<F N="zentao/framework/helper.class.php"/>
+			<F N="zentao/framework/model.class.php"/>
+			<F N="zentao/framework/router.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/api">
+			<F N="zentao/lib/api/api.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/crontab">
+			<F N="zentao/lib/crontab/crontab.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/dao">
+			<F N="zentao/lib/dao/dao.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/date">
+			<F N="zentao/lib/date/date.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/filter">
+			<F N="zentao/lib/filter/filter.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/front">
+			<F N="zentao/lib/front/front.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/mobile">
+			<F N="zentao/lib/mobile/mobile.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/pager">
+			<F N="zentao/lib/pager/pager.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/pclzip">
+			<F N="zentao/lib/pclzip/gnu-lgpl.txt"/>
+			<F N="zentao/lib/pclzip/pclzip.class.php"/>
+			<F N="zentao/lib/pclzip/readme.txt"/>
+		</Folder>
+		<Folder Name="zentao/lib/phpmailer">
+			<F N="zentao/lib/phpmailer/class.pop3.php"/>
+			<F N="zentao/lib/phpmailer/class.smtp.php"/>
+			<F N="zentao/lib/phpmailer/LICENSE"/>
+			<F N="zentao/lib/phpmailer/phpmailer.class.php"/>
+			<F N="zentao/lib/phpmailer/README"/>
+		</Folder>
+		<Folder Name="zentao/lib/phpmailer/language">
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-ar.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-br.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-ca.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-ch.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-cz.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-de.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-dk.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-es.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-et.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-fi.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-fo.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-fr.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-hu.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-it.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-ja.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-nl.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-no.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-pl.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-ro.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-ru.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-se.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-tr.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-zh-cn.php"/>
+			<F N="zentao/lib/phpmailer/language/phpmailer.lang-zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/qrcode">
+			<F N="zentao/lib/qrcode/qrcode.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/snoopy">
+			<F N="zentao/lib/snoopy/AUTHORS"/>
+			<F N="zentao/lib/snoopy/ChangeLog"/>
+			<F N="zentao/lib/snoopy/COPYING.lib"/>
+			<F N="zentao/lib/snoopy/FAQ"/>
+			<F N="zentao/lib/snoopy/INSTALL"/>
+			<F N="zentao/lib/snoopy/NEWS"/>
+			<F N="zentao/lib/snoopy/README"/>
+			<F N="zentao/lib/snoopy/snoopy.class.php"/>
+			<F N="zentao/lib/snoopy/TODO"/>
+		</Folder>
+		<Folder Name="zentao/lib/spyc">
+			<F N="zentao/lib/spyc/COPYING"/>
+			<F N="zentao/lib/spyc/spyc.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/ubb">
+			<F N="zentao/lib/ubb/ubb.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/zdb">
+			<F N="zentao/lib/zdb/zdb.class.php"/>
+		</Folder>
+		<Folder Name="zentao/lib/zfile">
+			<F N="zentao/lib/zfile/zfile.class.php"/>
+		</Folder>
+		<Folder Name="zentao/module/action">
+			<F N="zentao/module/action/config.php"/>
+			<F N="zentao/module/action/control.php"/>
+			<F N="zentao/module/action/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/action/css">
+			<F N="zentao/module/action/css/trash.css"/>
+		</Folder>
+		<Folder Name="zentao/module/action/lang">
+			<F N="zentao/module/action/lang/en.php"/>
+			<F N="zentao/module/action/lang/zh-cn.php"/>
+			<F N="zentao/module/action/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/action/view">
+			<F N="zentao/module/action/view/trash.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/admin">
+			<F N="zentao/module/admin/config.php"/>
+			<F N="zentao/module/admin/control.php"/>
+			<F N="zentao/module/admin/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/admin/css">
+			<F N="zentao/module/admin/css/index.css"/>
+		</Folder>
+		<Folder Name="zentao/module/admin/js">
+			<F N="zentao/module/admin/js/cleardata.js"/>
+		</Folder>
+		<Folder Name="zentao/module/admin/lang">
+			<F N="zentao/module/admin/lang/en.php"/>
+			<F N="zentao/module/admin/lang/zh-cn.php"/>
+			<F N="zentao/module/admin/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/admin/view">
+			<F N="zentao/module/admin/view/bind.html.php"/>
+			<F N="zentao/module/admin/view/index.html.php"/>
+			<F N="zentao/module/admin/view/register.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/api">
+			<F N="zentao/module/api/control.php"/>
+			<F N="zentao/module/api/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/api/css">
+			<F N="zentao/module/api/css/debug.css"/>
+		</Folder>
+		<Folder Name="zentao/module/api/js">
+			<F N="zentao/module/api/js/debug.js"/>
+		</Folder>
+		<Folder Name="zentao/module/api/lang">
+			<F N="zentao/module/api/lang/en.php"/>
+			<F N="zentao/module/api/lang/zh-cn.php"/>
+			<F N="zentao/module/api/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/api/view">
+			<F N="zentao/module/api/view/debug.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/backup">
+			<F N="zentao/module/backup/control.php"/>
+			<F N="zentao/module/backup/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/backup/js">
+			<F N="zentao/module/backup/js/index.js"/>
+		</Folder>
+		<Folder Name="zentao/module/backup/lang">
+			<F N="zentao/module/backup/lang/en.php"/>
+			<F N="zentao/module/backup/lang/zh-cn.php"/>
+			<F N="zentao/module/backup/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/backup/view">
+			<F N="zentao/module/backup/view/index.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/bug">
+			<F N="zentao/module/bug/config.php"/>
+			<F N="zentao/module/bug/control.php"/>
+			<F N="zentao/module/bug/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/bug/css">
+			<F N="zentao/module/bug/css/batchcreate.css"/>
+			<F N="zentao/module/bug/css/browse.css"/>
+			<F N="zentao/module/bug/css/common.css"/>
+			<F N="zentao/module/bug/css/create.css"/>
+			<F N="zentao/module/bug/css/customfields.css"/>
+			<F N="zentao/module/bug/css/edit.css"/>
+			<F N="zentao/module/bug/css/report.css"/>
+			<F N="zentao/module/bug/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/bug/js">
+			<F N="zentao/module/bug/js/batchcreate.js"/>
+			<F N="zentao/module/bug/js/batchedit.js"/>
+			<F N="zentao/module/bug/js/browse.js"/>
+			<F N="zentao/module/bug/js/common.js"/>
+			<F N="zentao/module/bug/js/create.js"/>
+			<F N="zentao/module/bug/js/customfields.js"/>
+			<F N="zentao/module/bug/js/edit.js"/>
+			<F N="zentao/module/bug/js/report.js"/>
+			<F N="zentao/module/bug/js/resolve.js"/>
+			<F N="zentao/module/bug/js/view.js"/>
+		</Folder>
+		<Folder Name="zentao/module/bug/lang">
+			<F N="zentao/module/bug/lang/en.php"/>
+			<F N="zentao/module/bug/lang/zh-cn.php"/>
+			<F N="zentao/module/bug/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/bug/view">
+			<F N="zentao/module/bug/view/activate.html.php"/>
+			<F N="zentao/module/bug/view/assignto.html.php"/>
+			<F N="zentao/module/bug/view/batchcreate.html.php"/>
+			<F N="zentao/module/bug/view/batchedit.html.php"/>
+			<F N="zentao/module/bug/view/browse.html.php"/>
+			<F N="zentao/module/bug/view/buildtemplates.html.php"/>
+			<F N="zentao/module/bug/view/close.html.php"/>
+			<F N="zentao/module/bug/view/confirmbug.html.php"/>
+			<F N="zentao/module/bug/view/create.html.php"/>
+			<F N="zentao/module/bug/view/edit.html.php"/>
+			<F N="zentao/module/bug/view/export.html.php"/>
+			<F N="zentao/module/bug/view/m.activate.html.php"/>
+			<F N="zentao/module/bug/view/m.ajaxgetdetail.html.php"/>
+			<F N="zentao/module/bug/view/m.assignto.html.php"/>
+			<F N="zentao/module/bug/view/m.browse.html.php"/>
+			<F N="zentao/module/bug/view/m.close.html.php"/>
+			<F N="zentao/module/bug/view/m.confirmbug.html.php"/>
+			<F N="zentao/module/bug/view/m.resolve.html.php"/>
+			<F N="zentao/module/bug/view/m.sendmail.html.php"/>
+			<F N="zentao/module/bug/view/m.view.html.php"/>
+			<F N="zentao/module/bug/view/report.html.php"/>
+			<F N="zentao/module/bug/view/resolve.html.php"/>
+			<F N="zentao/module/bug/view/sendmail.html.php"/>
+			<F N="zentao/module/bug/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/build">
+			<F N="zentao/module/build/config.php"/>
+			<F N="zentao/module/build/control.php"/>
+			<F N="zentao/module/build/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/build/css">
+			<F N="zentao/module/build/css/common.css"/>
+			<F N="zentao/module/build/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/build/js">
+			<F N="zentao/module/build/js/common.js"/>
+		</Folder>
+		<Folder Name="zentao/module/build/lang">
+			<F N="zentao/module/build/lang/en.php"/>
+			<F N="zentao/module/build/lang/zh-cn.php"/>
+			<F N="zentao/module/build/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/build/view">
+			<F N="zentao/module/build/view/create.html.php"/>
+			<F N="zentao/module/build/view/edit.html.php"/>
+			<F N="zentao/module/build/view/linkbug.html.php"/>
+			<F N="zentao/module/build/view/linkstory.html.php"/>
+			<F N="zentao/module/build/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/common">
+			<F N="zentao/module/common/control.php"/>
+			<F N="zentao/module/common/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/common/lang">
+			<F N="zentao/module/common/lang/en.php"/>
+			<F N="zentao/module/common/lang/menuOrder.php"/>
+			<F N="zentao/module/common/lang/zh-cn.php"/>
+			<F N="zentao/module/common/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/common/view">
+			<F N="zentao/module/common/view/action.html.php"/>
+			<F N="zentao/module/common/view/chosen.html.php"/>
+			<F N="zentao/module/common/view/datepicker.html.php"/>
+			<F N="zentao/module/common/view/footer.html.php"/>
+			<F N="zentao/module/common/view/footer.lite.html.php"/>
+			<F N="zentao/module/common/view/form.html.php"/>
+			<F N="zentao/module/common/view/header.html.php"/>
+			<F N="zentao/module/common/view/header.lite.html.php"/>
+			<F N="zentao/module/common/view/kindeditor.html.php"/>
+			<F N="zentao/module/common/view/m.action.html.php"/>
+			<F N="zentao/module/common/view/m.footer.html.php"/>
+			<F N="zentao/module/common/view/m.footer.lite.html.php"/>
+			<F N="zentao/module/common/view/m.header.html.php"/>
+			<F N="zentao/module/common/view/m.header.lite.html.php"/>
+			<F N="zentao/module/common/view/mail.html.php"/>
+			<F N="zentao/module/common/view/pastetext.html.php"/>
+			<F N="zentao/module/common/view/sparkline.html.php"/>
+			<F N="zentao/module/common/view/syntaxhighlighter.html.php"/>
+			<F N="zentao/module/common/view/tablesorter.html.php"/>
+			<F N="zentao/module/common/view/treetable.html.php"/>
+			<F N="zentao/module/common/view/treeview.html.php"/>
+			<F N="zentao/module/common/view/validation.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/company">
+			<F N="zentao/module/company/config.php"/>
+			<F N="zentao/module/company/control.php"/>
+			<F N="zentao/module/company/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/company/css">
+			<F N="zentao/module/company/css/browse.css"/>
+		</Folder>
+		<Folder Name="zentao/module/company/js">
+			<F N="zentao/module/company/js/browse.js"/>
+			<F N="zentao/module/company/js/dynamic.js"/>
+			<F N="zentao/module/company/js/edit.js"/>
+			<F N="zentao/module/company/js/view.js"/>
+		</Folder>
+		<Folder Name="zentao/module/company/lang">
+			<F N="zentao/module/company/lang/en.php"/>
+			<F N="zentao/module/company/lang/zh-cn.php"/>
+			<F N="zentao/module/company/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/company/view">
+			<F N="zentao/module/company/view/browse.html.php"/>
+			<F N="zentao/module/company/view/dynamic.html.php"/>
+			<F N="zentao/module/company/view/edit.html.php"/>
+			<F N="zentao/module/company/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/convert">
+			<F N="zentao/module/convert/control.php"/>
+			<F N="zentao/module/convert/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/convert/converter">
+			<F N="zentao/module/convert/converter/bugfree.php"/>
+			<F N="zentao/module/convert/converter/bugfree1.php"/>
+			<F N="zentao/module/convert/converter/bugfree2.php"/>
+			<F N="zentao/module/convert/converter/redmine.php"/>
+			<F N="zentao/module/convert/converter/redmine1.1.php"/>
+		</Folder>
+		<Folder Name="zentao/module/convert/css">
+			<F N="zentao/module/convert/css/common.css"/>
+			<F N="zentao/module/convert/css/selectsource.css"/>
+		</Folder>
+		<Folder Name="zentao/module/convert/js">
+			<F N="zentao/module/convert/js/selectsource.js"/>
+			<F N="zentao/module/convert/js/setconfig.js"/>
+		</Folder>
+		<Folder Name="zentao/module/convert/lang">
+			<F N="zentao/module/convert/lang/en.php"/>
+			<F N="zentao/module/convert/lang/zh-cn.php"/>
+			<F N="zentao/module/convert/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/convert/view">
+			<F N="zentao/module/convert/view/checkbugfree.html.php"/>
+			<F N="zentao/module/convert/view/checkconfig.html.php"/>
+			<F N="zentao/module/convert/view/checkredmine.html.php"/>
+			<F N="zentao/module/convert/view/convertbugfree.html.php"/>
+			<F N="zentao/module/convert/view/convertIssue.html.php"/>
+			<F N="zentao/module/convert/view/convertredmine.html.php"/>
+			<F N="zentao/module/convert/view/execute.html.php"/>
+			<F N="zentao/module/convert/view/index.html.php"/>
+			<F N="zentao/module/convert/view/selectsource.html.php"/>
+			<F N="zentao/module/convert/view/setbugfree.html.php"/>
+			<F N="zentao/module/convert/view/setconfig.html.php"/>
+			<F N="zentao/module/convert/view/setredmine.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/custom">
+			<F N="zentao/module/custom/config.php"/>
+			<F N="zentao/module/custom/control.php"/>
+			<F N="zentao/module/custom/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/custom/css">
+			<F N="zentao/module/custom/css/common.css"/>
+		</Folder>
+		<Folder Name="zentao/module/custom/js">
+			<F N="zentao/module/custom/js/set.js"/>
+		</Folder>
+		<Folder Name="zentao/module/custom/lang">
+			<F N="zentao/module/custom/lang/en.php"/>
+			<F N="zentao/module/custom/lang/zh-cn.php"/>
+			<F N="zentao/module/custom/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/custom/view">
+			<F N="zentao/module/custom/view/set.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/dept">
+			<F N="zentao/module/dept/control.php"/>
+			<F N="zentao/module/dept/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/dept/css">
+			<F N="zentao/module/dept/css/browse.css"/>
+		</Folder>
+		<Folder Name="zentao/module/dept/lang">
+			<F N="zentao/module/dept/lang/en.php"/>
+			<F N="zentao/module/dept/lang/zh-cn.php"/>
+			<F N="zentao/module/dept/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/dept/view">
+			<F N="zentao/module/dept/view/browse.html.php"/>
+			<F N="zentao/module/dept/view/edit.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/doc">
+			<F N="zentao/module/doc/config.php"/>
+			<F N="zentao/module/doc/control.php"/>
+			<F N="zentao/module/doc/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/doc/css">
+			<F N="zentao/module/doc/css/common.css"/>
+			<F N="zentao/module/doc/css/createlib.css"/>
+			<F N="zentao/module/doc/css/editlib.css"/>
+		</Folder>
+		<Folder Name="zentao/module/doc/js">
+			<F N="zentao/module/doc/js/browse.js"/>
+			<F N="zentao/module/doc/js/common.js"/>
+			<F N="zentao/module/doc/js/create.js"/>
+			<F N="zentao/module/doc/js/edit.js"/>
+		</Folder>
+		<Folder Name="zentao/module/doc/lang">
+			<F N="zentao/module/doc/lang/en.php"/>
+			<F N="zentao/module/doc/lang/zh-cn.php"/>
+			<F N="zentao/module/doc/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/doc/view">
+			<F N="zentao/module/doc/view/browse.html.php"/>
+			<F N="zentao/module/doc/view/create.html.php"/>
+			<F N="zentao/module/doc/view/createlib.html.php"/>
+			<F N="zentao/module/doc/view/edit.html.php"/>
+			<F N="zentao/module/doc/view/editlib.html.php"/>
+			<F N="zentao/module/doc/view/footer.html.php"/>
+			<F N="zentao/module/doc/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/editor">
+			<F N="zentao/module/editor/config.php"/>
+			<F N="zentao/module/editor/control.php"/>
+			<F N="zentao/module/editor/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/editor/css">
+			<F N="zentao/module/editor/css/edit.css"/>
+			<F N="zentao/module/editor/css/extend.css"/>
+			<F N="zentao/module/editor/css/index.css"/>
+		</Folder>
+		<Folder Name="zentao/module/editor/js">
+			<F N="zentao/module/editor/js/edit.js"/>
+			<F N="zentao/module/editor/js/index.js"/>
+		</Folder>
+		<Folder Name="zentao/module/editor/lang">
+			<F N="zentao/module/editor/lang/en.php"/>
+			<F N="zentao/module/editor/lang/zh-cn.php"/>
+			<F N="zentao/module/editor/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/editor/view">
+			<F N="zentao/module/editor/view/edit.html.php"/>
+			<F N="zentao/module/editor/view/extend.html.php"/>
+			<F N="zentao/module/editor/view/index.html.php"/>
+			<F N="zentao/module/editor/view/newpage.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/extension">
+			<F N="zentao/module/extension/config.php"/>
+			<F N="zentao/module/extension/control.php"/>
+			<F N="zentao/module/extension/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/extension/css">
+			<F N="zentao/module/extension/css/common.css"/>
+			<F N="zentao/module/extension/css/obtain.css"/>
+			<F N="zentao/module/extension/css/upload.css"/>
+		</Folder>
+		<Folder Name="zentao/module/extension/js">
+			<F N="zentao/module/extension/js/common.js"/>
+		</Folder>
+		<Folder Name="zentao/module/extension/lang">
+			<F N="zentao/module/extension/lang/en.php"/>
+			<F N="zentao/module/extension/lang/zh-cn.php"/>
+			<F N="zentao/module/extension/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/extension/license">
+			<F N="zentao/module/extension/license/apache.txt"/>
+			<F N="zentao/module/extension/license/bsd.txt"/>
+			<F N="zentao/module/extension/license/gpl.txt"/>
+			<F N="zentao/module/extension/license/lgpl.txt"/>
+			<F N="zentao/module/extension/license/mit.txt"/>
+		</Folder>
+		<Folder Name="zentao/module/extension/view">
+			<F N="zentao/module/extension/view/activate.html.php"/>
+			<F N="zentao/module/extension/view/browse.html.php"/>
+			<F N="zentao/module/extension/view/checkscore.html.php"/>
+			<F N="zentao/module/extension/view/deactivate.html.php"/>
+			<F N="zentao/module/extension/view/erase.html.php"/>
+			<F N="zentao/module/extension/view/header.html.php"/>
+			<F N="zentao/module/extension/view/install.html.php"/>
+			<F N="zentao/module/extension/view/obtain.html.php"/>
+			<F N="zentao/module/extension/view/structure.html.php"/>
+			<F N="zentao/module/extension/view/uninstall.html.php"/>
+			<F N="zentao/module/extension/view/upload.html.php"/>
+			<F N="zentao/module/extension/view/waring.htm.php"/>
+		</Folder>
+		<Folder Name="zentao/module/file">
+			<F N="zentao/module/file/config.php"/>
+			<F N="zentao/module/file/control.php"/>
+			<F N="zentao/module/file/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/file/lang">
+			<F N="zentao/module/file/lang/en.php"/>
+			<F N="zentao/module/file/lang/zh-cn.php"/>
+			<F N="zentao/module/file/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/file/view">
+			<F N="zentao/module/file/view/buildform.html.php"/>
+			<F N="zentao/module/file/view/edit.html.php"/>
+			<F N="zentao/module/file/view/export.html.php"/>
+			<F N="zentao/module/file/view/export2csv.html.php"/>
+			<F N="zentao/module/file/view/export2html.html.php"/>
+			<F N="zentao/module/file/view/export2xml.html.php"/>
+			<F N="zentao/module/file/view/printfiles.html.php"/>
+			<F N="zentao/module/file/view/uploadimages.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/git">
+			<F N="zentao/module/git/config.php"/>
+			<F N="zentao/module/git/control.php"/>
+			<F N="zentao/module/git/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/git/lang">
+			<F N="zentao/module/git/lang/en.php"/>
+			<F N="zentao/module/git/lang/zh-cn.php"/>
+			<F N="zentao/module/git/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/git/view">
+			<F N="zentao/module/git/view/cat.html.php"/>
+			<F N="zentao/module/git/view/diff.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/group">
+			<F N="zentao/module/group/config.php"/>
+			<F N="zentao/module/group/control.php"/>
+			<F N="zentao/module/group/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/group/css">
+			<F N="zentao/module/group/css/browse.css"/>
+			<F N="zentao/module/group/css/managemember.css"/>
+			<F N="zentao/module/group/css/managepriv.css"/>
+		</Folder>
+		<Folder Name="zentao/module/group/js">
+			<F N="zentao/module/group/js/managemember.js"/>
+			<F N="zentao/module/group/js/managepriv.js"/>
+		</Folder>
+		<Folder Name="zentao/module/group/lang">
+			<F N="zentao/module/group/lang/en.php"/>
+			<F N="zentao/module/group/lang/resource.php"/>
+			<F N="zentao/module/group/lang/zh-cn.php"/>
+			<F N="zentao/module/group/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/group/view">
+			<F N="zentao/module/group/view/browse.html.php"/>
+			<F N="zentao/module/group/view/copy.html.php"/>
+			<F N="zentao/module/group/view/create.html.php"/>
+			<F N="zentao/module/group/view/edit.html.php"/>
+			<F N="zentao/module/group/view/managemember.html.php"/>
+			<F N="zentao/module/group/view/managepriv.html.php"/>
+			<F N="zentao/module/group/view/privbygroup.html.php"/>
+			<F N="zentao/module/group/view/privbymodule.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/index">
+			<F N="zentao/module/index/control.php"/>
+			<F N="zentao/module/index/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/index/lang">
+			<F N="zentao/module/index/lang/en.php"/>
+			<F N="zentao/module/index/lang/zh-cn.php"/>
+			<F N="zentao/module/index/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/install">
+			<F N="zentao/module/install/control.php"/>
+			<F N="zentao/module/install/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/install/css">
+			<F N="zentao/module/install/css/common.css"/>
+			<F N="zentao/module/install/css/index.css"/>
+		</Folder>
+		<Folder Name="zentao/module/install/js">
+			<F N="zentao/module/install/js/common.js"/>
+			<F N="zentao/module/install/js/step2.js"/>
+		</Folder>
+		<Folder Name="zentao/module/install/lang">
+			<F N="zentao/module/install/lang/en.php"/>
+			<F N="zentao/module/install/lang/zh-cn.php"/>
+			<F N="zentao/module/install/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/install/view">
+			<F N="zentao/module/install/view/index.html.php"/>
+			<F N="zentao/module/install/view/step1.html.php"/>
+			<F N="zentao/module/install/view/step2.html.php"/>
+			<F N="zentao/module/install/view/step3.html.php"/>
+			<F N="zentao/module/install/view/step4.html.php"/>
+			<F N="zentao/module/install/view/step5.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/mail">
+			<F N="zentao/module/mail/config.php"/>
+			<F N="zentao/module/mail/control.php"/>
+			<F N="zentao/module/mail/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/mail/css">
+			<F N="zentao/module/mail/css/test.css"/>
+		</Folder>
+		<Folder Name="zentao/module/mail/js">
+			<F N="zentao/module/mail/js/detect.js"/>
+			<F N="zentao/module/mail/js/edit.js"/>
+		</Folder>
+		<Folder Name="zentao/module/mail/lang">
+			<F N="zentao/module/mail/lang/en.php"/>
+			<F N="zentao/module/mail/lang/zh-cn.php"/>
+			<F N="zentao/module/mail/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/mail/view">
+			<F N="zentao/module/mail/view/detect.html.php"/>
+			<F N="zentao/module/mail/view/edit.html.php"/>
+			<F N="zentao/module/mail/view/save.html.php"/>
+			<F N="zentao/module/mail/view/test.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc">
+			<F N="zentao/module/misc/control.php"/>
+			<F N="zentao/module/misc/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/css">
+			<F N="zentao/module/misc/css/about.css"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/config">
+			<F N="zentao/module/misc/ext/config/config1.php"/>
+			<F N="zentao/module/misc/ext/config/config2.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/control">
+			<F N="zentao/module/misc/ext/control/getsid.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/lang">
+			<F N="zentao/module/misc/ext/lang/zh-cn1.php"/>
+			<F N="zentao/module/misc/ext/lang/zh-cn2.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/model">
+			<F N="zentao/module/misc/ext/model/ext.php"/>
+			<F N="zentao/module/misc/ext/model/foo.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/model/class">
+			<F N="zentao/module/misc/ext/model/class/test.class.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/model/hook">
+			<F N="zentao/module/misc/ext/model/hook/hello.test.php"/>
+			<F N="zentao/module/misc/ext/model/hook/hello.test2.php"/>
+			<F N="zentao/module/misc/ext/model/hook/hello2.start.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/ext/view">
+			<F N="zentao/module/misc/ext/view/getsid.color.html.hook.php"/>
+			<F N="zentao/module/misc/ext/view/getsid.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/lang">
+			<F N="zentao/module/misc/lang/en.php"/>
+			<F N="zentao/module/misc/lang/zh-cn.php"/>
+			<F N="zentao/module/misc/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/misc/view">
+			<F N="zentao/module/misc/view/about.html.php"/>
+			<F N="zentao/module/misc/view/checkupdate.html.php"/>
+			<F N="zentao/module/misc/view/getsid.html.php"/>
+			<F N="zentao/module/misc/view/links.html.php"/>
+			<F N="zentao/module/misc/view/qrcode.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/my">
+			<F N="zentao/module/my/config.php"/>
+			<F N="zentao/module/my/control.php"/>
+			<F N="zentao/module/my/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/my/css">
+			<F N="zentao/module/my/css/common.css"/>
+			<F N="zentao/module/my/css/editprofile.css"/>
+			<F N="zentao/module/my/css/index.css"/>
+			<F N="zentao/module/my/css/todo.css"/>
+		</Folder>
+		<Folder Name="zentao/module/my/js">
+			<F N="zentao/module/my/js/common.js"/>
+			<F N="zentao/module/my/js/index.js"/>
+			<F N="zentao/module/my/js/task.js"/>
+			<F N="zentao/module/my/js/testcase.js"/>
+			<F N="zentao/module/my/js/todo.js"/>
+		</Folder>
+		<Folder Name="zentao/module/my/lang">
+			<F N="zentao/module/my/lang/en.php"/>
+			<F N="zentao/module/my/lang/zh-cn.php"/>
+			<F N="zentao/module/my/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/my/view">
+			<F N="zentao/module/my/view/blockbugs.html.php"/>
+			<F N="zentao/module/my/view/blockdynamic.html.php"/>
+			<F N="zentao/module/my/view/blockproducts.html.php"/>
+			<F N="zentao/module/my/view/blockprojects.html.php"/>
+			<F N="zentao/module/my/view/blockstories.html.php"/>
+			<F N="zentao/module/my/view/blocktasks.html.php"/>
+			<F N="zentao/module/my/view/blocktodoes.html.php"/>
+			<F N="zentao/module/my/view/bug.html.php"/>
+			<F N="zentao/module/my/view/changepassword.html.php"/>
+			<F N="zentao/module/my/view/dynamic.html.php"/>
+			<F N="zentao/module/my/view/editprofile.html.php"/>
+			<F N="zentao/module/my/view/index.html.php"/>
+			<F N="zentao/module/my/view/m.bug.html.php"/>
+			<F N="zentao/module/my/view/m.story.html.php"/>
+			<F N="zentao/module/my/view/m.task.html.php"/>
+			<F N="zentao/module/my/view/m.todo.html.php"/>
+			<F N="zentao/module/my/view/profile.html.php"/>
+			<F N="zentao/module/my/view/project.html.php"/>
+			<F N="zentao/module/my/view/story.html.php"/>
+			<F N="zentao/module/my/view/task.html.php"/>
+			<F N="zentao/module/my/view/team.html.php"/>
+			<F N="zentao/module/my/view/testcase.html.php"/>
+			<F N="zentao/module/my/view/testtask.html.php"/>
+			<F N="zentao/module/my/view/todo.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/product">
+			<F N="zentao/module/product/config.php"/>
+			<F N="zentao/module/product/control.php"/>
+			<F N="zentao/module/product/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/product/css">
+			<F N="zentao/module/product/css/browse.css"/>
+			<F N="zentao/module/product/css/index.css"/>
+			<F N="zentao/module/product/css/roadmap.css"/>
+			<F N="zentao/module/product/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/product/js">
+			<F N="zentao/module/product/js/browse.js"/>
+			<F N="zentao/module/product/js/common.js"/>
+			<F N="zentao/module/product/js/dynamic.js"/>
+			<F N="zentao/module/product/js/index.js"/>
+			<F N="zentao/module/product/js/project.js"/>
+		</Folder>
+		<Folder Name="zentao/module/product/lang">
+			<F N="zentao/module/product/lang/en.php"/>
+			<F N="zentao/module/product/lang/zh-cn.php"/>
+			<F N="zentao/module/product/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/product/view">
+			<F N="zentao/module/product/view/ajaxgetdropmenu.html.php"/>
+			<F N="zentao/module/product/view/ajaxgetmatcheditems.html.php"/>
+			<F N="zentao/module/product/view/batchedit.html.php"/>
+			<F N="zentao/module/product/view/browse.html.php"/>
+			<F N="zentao/module/product/view/close.html.php"/>
+			<F N="zentao/module/product/view/create.html.php"/>
+			<F N="zentao/module/product/view/doc.html.php"/>
+			<F N="zentao/module/product/view/dynamic.html.php"/>
+			<F N="zentao/module/product/view/edit.html.php"/>
+			<F N="zentao/module/product/view/index.html.php"/>
+			<F N="zentao/module/product/view/m.browse.html.php"/>
+			<F N="zentao/module/product/view/m.index.html.php"/>
+			<F N="zentao/module/product/view/project.html.php"/>
+			<F N="zentao/module/product/view/roadmap.html.php"/>
+			<F N="zentao/module/product/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/productplan">
+			<F N="zentao/module/productplan/config.php"/>
+			<F N="zentao/module/productplan/control.php"/>
+			<F N="zentao/module/productplan/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/productplan/css">
+			<F N="zentao/module/productplan/css/browse.css"/>
+			<F N="zentao/module/productplan/css/linkbug.css"/>
+			<F N="zentao/module/productplan/css/linkstory.css"/>
+			<F N="zentao/module/productplan/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/productplan/js">
+			<F N="zentao/module/productplan/js/create.js"/>
+		</Folder>
+		<Folder Name="zentao/module/productplan/lang">
+			<F N="zentao/module/productplan/lang/en.php"/>
+			<F N="zentao/module/productplan/lang/zh-cn.php"/>
+			<F N="zentao/module/productplan/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/productplan/view">
+			<F N="zentao/module/productplan/view/browse.html.php"/>
+			<F N="zentao/module/productplan/view/create.html.php"/>
+			<F N="zentao/module/productplan/view/edit.html.php"/>
+			<F N="zentao/module/productplan/view/linkbug.html.php"/>
+			<F N="zentao/module/productplan/view/linkstory.html.php"/>
+			<F N="zentao/module/productplan/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/project">
+			<F N="zentao/module/project/config.php"/>
+			<F N="zentao/module/project/control.php"/>
+			<F N="zentao/module/project/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/project/css">
+			<F N="zentao/module/project/css/bug.css"/>
+			<F N="zentao/module/project/css/build.css"/>
+			<F N="zentao/module/project/css/burn.css"/>
+			<F N="zentao/module/project/css/common.css"/>
+			<F N="zentao/module/project/css/create.css"/>
+			<F N="zentao/module/project/css/grouptask.css"/>
+			<F N="zentao/module/project/css/importtask.css"/>
+			<F N="zentao/module/project/css/managemembers.css"/>
+			<F N="zentao/module/project/css/manageproducts.css"/>
+			<F N="zentao/module/project/css/story.css"/>
+			<F N="zentao/module/project/css/task.css"/>
+			<F N="zentao/module/project/css/team.css"/>
+			<F N="zentao/module/project/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/project/js">
+			<F N="zentao/module/project/js/bug.js"/>
+			<F N="zentao/module/project/js/burn.js"/>
+			<F N="zentao/module/project/js/common.js"/>
+			<F N="zentao/module/project/js/create.js"/>
+			<F N="zentao/module/project/js/doc.js"/>
+			<F N="zentao/module/project/js/dynamic.js"/>
+			<F N="zentao/module/project/js/importbug.js"/>
+			<F N="zentao/module/project/js/importtask.js"/>
+			<F N="zentao/module/project/js/index.js"/>
+			<F N="zentao/module/project/js/managemembers.js"/>
+			<F N="zentao/module/project/js/manageproducts.js"/>
+			<F N="zentao/module/project/js/story.js"/>
+			<F N="zentao/module/project/js/task.js"/>
+		</Folder>
+		<Folder Name="zentao/module/project/lang">
+			<F N="zentao/module/project/lang/en.php"/>
+			<F N="zentao/module/project/lang/zh-cn.php"/>
+			<F N="zentao/module/project/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/project/view">
+			<F N="zentao/module/project/view/activate.html.php"/>
+			<F N="zentao/module/project/view/ajaxgetdropmenu.html.php"/>
+			<F N="zentao/module/project/view/ajaxgetmatcheditems.html.php"/>
+			<F N="zentao/module/project/view/batchedit.html.php"/>
+			<F N="zentao/module/project/view/bug.html.php"/>
+			<F N="zentao/module/project/view/build.html.php"/>
+			<F N="zentao/module/project/view/burn.html.php"/>
+			<F N="zentao/module/project/view/close.html.php"/>
+			<F N="zentao/module/project/view/computeburn.html.php"/>
+			<F N="zentao/module/project/view/create.html.php"/>
+			<F N="zentao/module/project/view/doc.html.php"/>
+			<F N="zentao/module/project/view/dynamic.html.php"/>
+			<F N="zentao/module/project/view/edit.html.php"/>
+			<F N="zentao/module/project/view/grouptask.html.php"/>
+			<F N="zentao/module/project/view/importbug.html.php"/>
+			<F N="zentao/module/project/view/importtask.html.php"/>
+			<F N="zentao/module/project/view/index.html.php"/>
+			<F N="zentao/module/project/view/linkstory.html.php"/>
+			<F N="zentao/module/project/view/m.index.html.php"/>
+			<F N="zentao/module/project/view/m.task.html.php"/>
+			<F N="zentao/module/project/view/managechilds.html.php"/>
+			<F N="zentao/module/project/view/managemembers.html.php"/>
+			<F N="zentao/module/project/view/manageproducts.html.php"/>
+			<F N="zentao/module/project/view/project.html.php"/>
+			<F N="zentao/module/project/view/putoff.html.php"/>
+			<F N="zentao/module/project/view/sendmail.html.php"/>
+			<F N="zentao/module/project/view/start.html.php"/>
+			<F N="zentao/module/project/view/story.html.php"/>
+			<F N="zentao/module/project/view/suspend.html.php"/>
+			<F N="zentao/module/project/view/task.html.php"/>
+			<F N="zentao/module/project/view/taskheader.html.php"/>
+			<F N="zentao/module/project/view/team.html.php"/>
+			<F N="zentao/module/project/view/testtask.html.php"/>
+			<F N="zentao/module/project/view/tips.html.php"/>
+			<F N="zentao/module/project/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/qa">
+			<F N="zentao/module/qa/control.php"/>
+			<F N="zentao/module/qa/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/qa/lang">
+			<F N="zentao/module/qa/lang/en.php"/>
+			<F N="zentao/module/qa/lang/zh-cn.php"/>
+			<F N="zentao/module/qa/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/qa/view">
+			<F N="zentao/module/qa/view/index.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/release">
+			<F N="zentao/module/release/config.php"/>
+			<F N="zentao/module/release/control.php"/>
+			<F N="zentao/module/release/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/release/css">
+			<F N="zentao/module/release/css/browse.css"/>
+			<F N="zentao/module/release/css/common.css"/>
+			<F N="zentao/module/release/css/edit.css"/>
+			<F N="zentao/module/release/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/release/js">
+			<F N="zentao/module/release/js/common.js"/>
+		</Folder>
+		<Folder Name="zentao/module/release/lang">
+			<F N="zentao/module/release/lang/en.php"/>
+			<F N="zentao/module/release/lang/zh-cn.php"/>
+			<F N="zentao/module/release/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/release/view">
+			<F N="zentao/module/release/view/browse.html.php"/>
+			<F N="zentao/module/release/view/create.html.php"/>
+			<F N="zentao/module/release/view/edit.html.php"/>
+			<F N="zentao/module/release/view/export.html.php"/>
+			<F N="zentao/module/release/view/linkbug.html.php"/>
+			<F N="zentao/module/release/view/linkstory.html.php"/>
+			<F N="zentao/module/release/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/report">
+			<F N="zentao/module/report/config.php"/>
+			<F N="zentao/module/report/control.php"/>
+			<F N="zentao/module/report/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/report/css">
+			<F N="zentao/module/report/css/common.css"/>
+		</Folder>
+		<Folder Name="zentao/module/report/js">
+			<F N="zentao/module/report/js/bugsummary.js"/>
+			<F N="zentao/module/report/js/workload.js"/>
+		</Folder>
+		<Folder Name="zentao/module/report/lang">
+			<F N="zentao/module/report/lang/en.php"/>
+			<F N="zentao/module/report/lang/zh-cn.php"/>
+			<F N="zentao/module/report/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/report/view">
+			<F N="zentao/module/report/view/blockreportlist.html.php"/>
+			<F N="zentao/module/report/view/bugassign.html.php"/>
+			<F N="zentao/module/report/view/bugsummary.html.php"/>
+			<F N="zentao/module/report/view/dailyreminder.html.php"/>
+			<F N="zentao/module/report/view/productinfo.html.php"/>
+			<F N="zentao/module/report/view/projectdeviation.html.php"/>
+			<F N="zentao/module/report/view/workload.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/search">
+			<F N="zentao/module/search/config.php"/>
+			<F N="zentao/module/search/control.php"/>
+			<F N="zentao/module/search/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/search/lang">
+			<F N="zentao/module/search/lang/en.php"/>
+			<F N="zentao/module/search/lang/zh-cn.php"/>
+			<F N="zentao/module/search/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/search/view">
+			<F N="zentao/module/search/view/buildform.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/setting">
+			<F N="zentao/module/setting/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/story">
+			<F N="zentao/module/story/config.php"/>
+			<F N="zentao/module/story/control.php"/>
+			<F N="zentao/module/story/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/story/css">
+			<F N="zentao/module/story/css/batchclose.css"/>
+			<F N="zentao/module/story/css/batchcreate.css"/>
+			<F N="zentao/module/story/css/batchedit.css"/>
+			<F N="zentao/module/story/css/change.css"/>
+			<F N="zentao/module/story/css/common.css"/>
+			<F N="zentao/module/story/css/create.css"/>
+			<F N="zentao/module/story/css/edit.css"/>
+			<F N="zentao/module/story/css/report.css"/>
+			<F N="zentao/module/story/css/tasks.css"/>
+		</Folder>
+		<Folder Name="zentao/module/story/js">
+			<F N="zentao/module/story/js/batchclose.js"/>
+			<F N="zentao/module/story/js/batchcreate.js"/>
+			<F N="zentao/module/story/js/batchedit.js"/>
+			<F N="zentao/module/story/js/change.js"/>
+			<F N="zentao/module/story/js/close.js"/>
+			<F N="zentao/module/story/js/create.js"/>
+			<F N="zentao/module/story/js/m.close.js"/>
+			<F N="zentao/module/story/js/m.review.js"/>
+			<F N="zentao/module/story/js/report.js"/>
+			<F N="zentao/module/story/js/review.js"/>
+			<F N="zentao/module/story/js/view.js"/>
+			<F N="zentao/module/story/js/zerocase.js"/>
+		</Folder>
+		<Folder Name="zentao/module/story/lang">
+			<F N="zentao/module/story/lang/en.php"/>
+			<F N="zentao/module/story/lang/zh-cn.php"/>
+			<F N="zentao/module/story/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/story/view">
+			<F N="zentao/module/story/view/activate.html.php"/>
+			<F N="zentao/module/story/view/affected.html.php"/>
+			<F N="zentao/module/story/view/batchclose.html.php"/>
+			<F N="zentao/module/story/view/batchcreate.html.php"/>
+			<F N="zentao/module/story/view/batchedit.html.php"/>
+			<F N="zentao/module/story/view/change.html.php"/>
+			<F N="zentao/module/story/view/close.html.php"/>
+			<F N="zentao/module/story/view/create.html.php"/>
+			<F N="zentao/module/story/view/edit.html.php"/>
+			<F N="zentao/module/story/view/export.html.php"/>
+			<F N="zentao/module/story/view/header.html.php"/>
+			<F N="zentao/module/story/view/m.ajaxgetdetail.html.php"/>
+			<F N="zentao/module/story/view/m.close.html.php"/>
+			<F N="zentao/module/story/view/m.review.html.php"/>
+			<F N="zentao/module/story/view/m.sendmail.html.php"/>
+			<F N="zentao/module/story/view/m.view.html.php"/>
+			<F N="zentao/module/story/view/report.html.php"/>
+			<F N="zentao/module/story/view/review.html.php"/>
+			<F N="zentao/module/story/view/sendmail.html.php"/>
+			<F N="zentao/module/story/view/tasks.html.php"/>
+			<F N="zentao/module/story/view/view.html.php"/>
+			<F N="zentao/module/story/view/zerocase.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/svn">
+			<F N="zentao/module/svn/config.php"/>
+			<F N="zentao/module/svn/control.php"/>
+			<F N="zentao/module/svn/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/svn/ext/config">
+			<F N="zentao/module/svn/ext/config/svn.php"/>
+		</Folder>
+		<Folder Name="zentao/module/svn/lang">
+			<F N="zentao/module/svn/lang/en.php"/>
+			<F N="zentao/module/svn/lang/zh-cn.php"/>
+			<F N="zentao/module/svn/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/svn/syncer">
+			<F N="zentao/module/svn/syncer/config.php"/>
+			<F
+				N="zentao/module/svn/syncer/Makefile"
+				Type="Makefile"/>
+			<F N="zentao/module/svn/syncer/syncer.php"/>
+			<F N="zentao/module/svn/syncer/VERSION"/>
+		</Folder>
+		<Folder Name="zentao/module/svn/view">
+			<F N="zentao/module/svn/view/cat.html.php"/>
+			<F N="zentao/module/svn/view/diff.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/task">
+			<F N="zentao/module/task/config.php"/>
+			<F N="zentao/module/task/control.php"/>
+			<F N="zentao/module/task/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/task/css">
+			<F N="zentao/module/task/css/batchcreate.css"/>
+			<F N="zentao/module/task/css/batchedit.css"/>
+			<F N="zentao/module/task/css/common.css"/>
+			<F N="zentao/module/task/css/create.css"/>
+			<F N="zentao/module/task/css/edit.css"/>
+			<F N="zentao/module/task/css/recordestimate.css"/>
+			<F N="zentao/module/task/css/report.css"/>
+		</Folder>
+		<Folder Name="zentao/module/task/js">
+			<F N="zentao/module/task/js/batchcreate.js"/>
+			<F N="zentao/module/task/js/common.js"/>
+			<F N="zentao/module/task/js/create.js"/>
+			<F N="zentao/module/task/js/edit.js"/>
+			<F N="zentao/module/task/js/editestimate.js"/>
+			<F N="zentao/module/task/js/m.common.js"/>
+			<F N="zentao/module/task/js/recordestimate.js"/>
+			<F N="zentao/module/task/js/report.js"/>
+			<F N="zentao/module/task/js/view.js"/>
+		</Folder>
+		<Folder Name="zentao/module/task/lang">
+			<F N="zentao/module/task/lang/en.php"/>
+			<F N="zentao/module/task/lang/zh-cn.php"/>
+			<F N="zentao/module/task/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/task/view">
+			<F N="zentao/module/task/view/activate.html.php"/>
+			<F N="zentao/module/task/view/assignto.html.php"/>
+			<F N="zentao/module/task/view/batchcreate.html.php"/>
+			<F N="zentao/module/task/view/batchedit.html.php"/>
+			<F N="zentao/module/task/view/browse.html.php"/>
+			<F N="zentao/module/task/view/cancel.html.php"/>
+			<F N="zentao/module/task/view/close.html.php"/>
+			<F N="zentao/module/task/view/create.html.php"/>
+			<F N="zentao/module/task/view/edit.html.php"/>
+			<F N="zentao/module/task/view/editestimate.html.php"/>
+			<F N="zentao/module/task/view/export.html.php"/>
+			<F N="zentao/module/task/view/finish.html.php"/>
+			<F N="zentao/module/task/view/m.activate.html.php"/>
+			<F N="zentao/module/task/view/m.ajaxgetdetail.html.php"/>
+			<F N="zentao/module/task/view/m.assignto.html.php"/>
+			<F N="zentao/module/task/view/m.close.html.php"/>
+			<F N="zentao/module/task/view/m.finish.html.php"/>
+			<F N="zentao/module/task/view/m.recordestimate.html.php"/>
+			<F N="zentao/module/task/view/m.sendmail.html.php"/>
+			<F N="zentao/module/task/view/m.start.html.php"/>
+			<F N="zentao/module/task/view/m.view.html.php"/>
+			<F N="zentao/module/task/view/pause.html.php"/>
+			<F N="zentao/module/task/view/recordestimate.html.php"/>
+			<F N="zentao/module/task/view/report.html.php"/>
+			<F N="zentao/module/task/view/restart.html.php"/>
+			<F N="zentao/module/task/view/sendmail.html.php"/>
+			<F N="zentao/module/task/view/start.html.php"/>
+			<F N="zentao/module/task/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/testcase">
+			<F N="zentao/module/testcase/config.php"/>
+			<F N="zentao/module/testcase/control.php"/>
+			<F N="zentao/module/testcase/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/testcase/css">
+			<F N="zentao/module/testcase/css/batchcreate.css"/>
+			<F N="zentao/module/testcase/css/batchedit.css"/>
+			<F N="zentao/module/testcase/css/browse.css"/>
+			<F N="zentao/module/testcase/css/common.css"/>
+			<F N="zentao/module/testcase/css/create.css"/>
+			<F N="zentao/module/testcase/css/edit.css"/>
+			<F N="zentao/module/testcase/css/showimport.css"/>
+		</Folder>
+		<Folder Name="zentao/module/testcase/js">
+			<F N="zentao/module/testcase/js/batchcreate.js"/>
+			<F N="zentao/module/testcase/js/batchedit.js"/>
+			<F N="zentao/module/testcase/js/browse.js"/>
+			<F N="zentao/module/testcase/js/common.js"/>
+			<F N="zentao/module/testcase/js/create.js"/>
+			<F N="zentao/module/testcase/js/edit.js"/>
+			<F N="zentao/module/testcase/js/groupcase.js"/>
+			<F N="zentao/module/testcase/js/view.js"/>
+		</Folder>
+		<Folder Name="zentao/module/testcase/lang">
+			<F N="zentao/module/testcase/lang/en.php"/>
+			<F N="zentao/module/testcase/lang/zh-cn.php"/>
+			<F N="zentao/module/testcase/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/testcase/view">
+			<F N="zentao/module/testcase/view/batchcreate.html.php"/>
+			<F N="zentao/module/testcase/view/batchedit.html.php"/>
+			<F N="zentao/module/testcase/view/browse.html.php"/>
+			<F N="zentao/module/testcase/view/caseheader.html.php"/>
+			<F N="zentao/module/testcase/view/create.html.php"/>
+			<F N="zentao/module/testcase/view/createbug.html.php"/>
+			<F N="zentao/module/testcase/view/edit.html.php"/>
+			<F N="zentao/module/testcase/view/export.html.php"/>
+			<F N="zentao/module/testcase/view/exporttemplet.html.php"/>
+			<F N="zentao/module/testcase/view/groupcase.html.php"/>
+			<F N="zentao/module/testcase/view/import.html.php"/>
+			<F N="zentao/module/testcase/view/index.html.php"/>
+			<F N="zentao/module/testcase/view/showimport.html.php"/>
+			<F N="zentao/module/testcase/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/testtask">
+			<F N="zentao/module/testtask/config.php"/>
+			<F N="zentao/module/testtask/control.php"/>
+			<F N="zentao/module/testtask/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/testtask/css">
+			<F N="zentao/module/testtask/css/batchrun.css"/>
+			<F N="zentao/module/testtask/css/linkcase.css"/>
+			<F N="zentao/module/testtask/css/results.css"/>
+			<F N="zentao/module/testtask/css/runcase.css"/>
+			<F N="zentao/module/testtask/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/testtask/js">
+			<F N="zentao/module/testtask/js/batchrun.js"/>
+			<F N="zentao/module/testtask/js/cases.js"/>
+			<F N="zentao/module/testtask/js/create.js"/>
+			<F N="zentao/module/testtask/js/groupcase.js"/>
+			<F N="zentao/module/testtask/js/linkcase.js"/>
+			<F N="zentao/module/testtask/js/results.js"/>
+			<F N="zentao/module/testtask/js/runcase.js"/>
+			<F N="zentao/module/testtask/js/view.js"/>
+		</Folder>
+		<Folder Name="zentao/module/testtask/lang">
+			<F N="zentao/module/testtask/lang/en.php"/>
+			<F N="zentao/module/testtask/lang/zh-cn.php"/>
+			<F N="zentao/module/testtask/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/testtask/view">
+			<F N="zentao/module/testtask/view/batchrun.html.php"/>
+			<F N="zentao/module/testtask/view/browse.html.php"/>
+			<F N="zentao/module/testtask/view/caseheader.html.php"/>
+			<F N="zentao/module/testtask/view/cases.html.php"/>
+			<F N="zentao/module/testtask/view/close.html.php"/>
+			<F N="zentao/module/testtask/view/create.html.php"/>
+			<F N="zentao/module/testtask/view/edit.html.php"/>
+			<F N="zentao/module/testtask/view/groupcase.html.php"/>
+			<F N="zentao/module/testtask/view/linkcase.html.php"/>
+			<F N="zentao/module/testtask/view/results.html.php"/>
+			<F N="zentao/module/testtask/view/runcase.html.php"/>
+			<F N="zentao/module/testtask/view/sendmail.html.php"/>
+			<F N="zentao/module/testtask/view/start.html.php"/>
+			<F N="zentao/module/testtask/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/todo">
+			<F N="zentao/module/todo/config.php"/>
+			<F N="zentao/module/todo/control.php"/>
+			<F N="zentao/module/todo/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/todo/css">
+			<F N="zentao/module/todo/css/batchcreate.css"/>
+			<F N="zentao/module/todo/css/batchedit.css"/>
+			<F N="zentao/module/todo/css/view.css"/>
+		</Folder>
+		<Folder Name="zentao/module/todo/js">
+			<F N="zentao/module/todo/js/batchcreate.js"/>
+			<F N="zentao/module/todo/js/common.js"/>
+			<F N="zentao/module/todo/js/view.js"/>
+		</Folder>
+		<Folder Name="zentao/module/todo/lang">
+			<F N="zentao/module/todo/lang/en.php"/>
+			<F N="zentao/module/todo/lang/zh-cn.php"/>
+			<F N="zentao/module/todo/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/todo/view">
+			<F N="zentao/module/todo/view/batchcreate.html.php"/>
+			<F N="zentao/module/todo/view/batchedit.html.php"/>
+			<F N="zentao/module/todo/view/create.html.php"/>
+			<F N="zentao/module/todo/view/edit.html.php"/>
+			<F N="zentao/module/todo/view/export.html.php"/>
+			<F N="zentao/module/todo/view/footer.html.php"/>
+			<F N="zentao/module/todo/view/m.ajaxgetdetail.html.php"/>
+			<F N="zentao/module/todo/view/m.batchcreate.html.php"/>
+			<F N="zentao/module/todo/view/view.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/tree">
+			<F N="zentao/module/tree/config.php"/>
+			<F N="zentao/module/tree/control.php"/>
+			<F N="zentao/module/tree/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/tree/css">
+			<F N="zentao/module/tree/css/common.css"/>
+			<F N="zentao/module/tree/css/edit.css"/>
+		</Folder>
+		<Folder Name="zentao/module/tree/js">
+			<F N="zentao/module/tree/js/browse.js"/>
+			<F N="zentao/module/tree/js/browsetask.js"/>
+		</Folder>
+		<Folder Name="zentao/module/tree/lang">
+			<F N="zentao/module/tree/lang/en.php"/>
+			<F N="zentao/module/tree/lang/zh-cn.php"/>
+			<F N="zentao/module/tree/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/tree/view">
+			<F N="zentao/module/tree/view/browse.html.php"/>
+			<F N="zentao/module/tree/view/browsetask.html.php"/>
+			<F N="zentao/module/tree/view/edit.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/upgrade">
+			<F N="zentao/module/upgrade/config.php"/>
+			<F N="zentao/module/upgrade/control.php"/>
+			<F N="zentao/module/upgrade/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/upgrade/css">
+			<F N="zentao/module/upgrade/css/common.css"/>
+		</Folder>
+		<Folder Name="zentao/module/upgrade/js">
+			<F N="zentao/module/upgrade/js/common.js"/>
+			<F N="zentao/module/upgrade/js/execute.js"/>
+		</Folder>
+		<Folder Name="zentao/module/upgrade/lang">
+			<F N="zentao/module/upgrade/lang/en.php"/>
+			<F N="zentao/module/upgrade/lang/zh-cn.php"/>
+			<F N="zentao/module/upgrade/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/upgrade/view">
+			<F N="zentao/module/upgrade/view/confirm.html.php"/>
+			<F N="zentao/module/upgrade/view/execute.html.php"/>
+			<F N="zentao/module/upgrade/view/index.html.php"/>
+			<F N="zentao/module/upgrade/view/selectversion.html.php"/>
+		</Folder>
+		<Folder Name="zentao/module/user">
+			<F N="zentao/module/user/config.php"/>
+			<F N="zentao/module/user/control.php"/>
+			<F N="zentao/module/user/model.php"/>
+		</Folder>
+		<Folder Name="zentao/module/user/css">
+			<F N="zentao/module/user/css/deny.css"/>
+			<F N="zentao/module/user/css/edit.css"/>
+			<F N="zentao/module/user/css/login.css"/>
+			<F N="zentao/module/user/css/managecontacts.css"/>
+		</Folder>
+		<Folder Name="zentao/module/user/js">
+			<F N="zentao/module/user/js/batchcreate.js"/>
+			<F N="zentao/module/user/js/batchedit.js"/>
+			<F N="zentao/module/user/js/common.js"/>
+			<F N="zentao/module/user/js/create.js"/>
+			<F N="zentao/module/user/js/login.js"/>
+			<F N="zentao/module/user/js/m.login.js"/>
+			<F N="zentao/module/user/js/todo.js"/>
+		</Folder>
+		<Folder Name="zentao/module/user/lang">
+			<F N="zentao/module/user/lang/en.php"/>
+			<F N="zentao/module/user/lang/zh-cn.php"/>
+			<F N="zentao/module/user/lang/zh-tw.php"/>
+		</Folder>
+		<Folder Name="zentao/module/user/view">
+			<F N="zentao/module/user/view/batchcreate.html.php"/>
+			<F N="zentao/module/user/view/batchedit.html.php"/>
+			<F N="zentao/module/user/view/bug.html.php"/>
+			<F N="zentao/module/user/view/create.html.php"/>
+			<F N="zentao/module/user/view/deny.html.php"/>
+			<F N="zentao/module/user/view/dynamic.html.php"/>
+			<F N="zentao/module/user/view/edit.html.php"/>
+			<F N="zentao/module/user/view/featurebar.html.php"/>
+			<F N="zentao/module/user/view/login.html.php"/>
+			<F N="zentao/module/user/view/m.login.html.php"/>
+			<F N="zentao/module/user/view/managecontacts.html.php"/>
+			<F N="zentao/module/user/view/profile.html.php"/>
+			<F N="zentao/module/user/view/project.html.php"/>
+			<F N="zentao/module/user/view/story.html.php"/>
+			<F N="zentao/module/user/view/task.html.php"/>
+			<F N="zentao/module/user/view/team.html.php"/>
+			<F N="zentao/module/user/view/testcase.html.php"/>
+			<F N="zentao/module/user/view/testtask.html.php"/>
+			<F N="zentao/module/user/view/todo.html.php"/>
+		</Folder>
+		<Folder Name="zentao/tmp/backup">
+			<F N="zentao/tmp/backup/201501061711236.file.zip.php"/>
+			<F N="zentao/tmp/backup/201501061711236.sql.php"/>
+			<F N="zentao/tmp/backup/201501071125083.file.zip.php"/>
+			<F N="zentao/tmp/backup/201501071125083.sql.php"/>
+			<F N="zentao/tmp/backup/201501071539569.file.zip.php"/>
+			<F N="zentao/tmp/backup/201501071539569.sql.php"/>
+		</Folder>
+		<Folder Name="zentao/tmp/log">
+			<F N="zentao/tmp/log/php.20141223.log.php"/>
+			<F N="zentao/tmp/log/php.20150106.log.php"/>
+			<F N="zentao/tmp/log/php.20150107.log.php"/>
+			<F N="zentao/tmp/log/php.20150108.log.php"/>
+			<F N="zentao/tmp/log/php.20150109.log.php"/>
+			<F N="zentao/tmp/log/php.20150112.log.php"/>
+			<F N="zentao/tmp/log/php.20150113.log.php"/>
+		</Folder>
+		<Folder Name="zentao/tmp/model">
+			<F N="zentao/tmp/model/misc.php"/>
+		</Folder>
+		<Folder Name="zentao/www">
+			<F N="zentao/www/.htaccess"/>
+			<F N="zentao/www/.ztaccess"/>
+			<F N="zentao/www/favicon-old.ico"/>
+			<F N="zentao/www/favicon.ico"/>
+			<F N="zentao/www/index.php"/>
+			<F N="zentao/www/install.php"/>
+			<F N="zentao/www/ioncube.php"/>
+			<F N="zentao/www/robots.txt"/>
+			<F N="zentao/www/upgrade.php"/>
+		</Folder>
+		<Folder Name="zentao/www/data/upload/1/201501">
+			<F N="zentao/www/data/upload/1/201501/07140925074176jj.doc"/>
+			<F N="zentao/www/data/upload/1/201501/07141008051155bm.doc"/>
+			<F N="zentao/www/data/upload/1/201501/071538540129ivv.csv"/>
+			<F N="zentao/www/data/upload/1/201501/071539090563b0e.csv"/>
+			<F N="zentao/www/data/upload/1/201501/index.html"/>
+		</Folder>
+		<Folder Name="zentao/www/fusioncharts">
+			<F N="zentao/www/fusioncharts/fcf_area2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_bar2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_candlestick.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_column2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_column3d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_doughnut2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_funnel.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_gantt.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_line.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_msarea2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_msbar2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_mscolumn2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_mscolumn2dlinedy.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_mscolumn3d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_mscolumn3dlinedy.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_msline.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_pie2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_pie3d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_stackedarea2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_stackedbar2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_stackedcolumn2d.swf"/>
+			<F N="zentao/www/fusioncharts/fcf_stackedcolumn3d.swf"/>
+			<F N="zentao/www/fusioncharts/Readme.txt"/>
+		</Folder>
+		<Folder Name="zentao/www/js">
+			<F N="zentao/www/js/all.js"/>
+			<F N="zentao/www/js/m.all.js"/>
+			<F N="zentao/www/js/m.my.full.js"/>
+			<F N="zentao/www/js/my.full.js"/>
+			<F N="zentao/www/js/my.min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/chartjs">
+			<F N="zentao/www/js/chartjs/chart.line.min.js"/>
+			<F N="zentao/www/js/chartjs/excanvas.min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/html5shiv">
+			<F N="zentao/www/js/html5shiv/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery">
+			<F N="zentao/www/js/jquery/jquery.pjax.js"/>
+			<F N="zentao/www/js/jquery/lib.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/chosen">
+			<F N="zentao/www/js/jquery/chosen/min.css"/>
+			<F N="zentao/www/js/jquery/chosen/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/datetimepicker">
+			<F N="zentao/www/js/jquery/datetimepicker/min.css"/>
+			<F N="zentao/www/js/jquery/datetimepicker/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/flot">
+			<F N="zentao/www/js/jquery/flot/excanvas.min.js"/>
+			<F N="zentao/www/js/jquery/flot/jquery.flot.min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/form">
+			<F N="zentao/www/js/jquery/form/min.js"/>
+			<F N="zentao/www/js/jquery/form/zentao.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/mobile">
+			<F N="zentao/www/js/jquery/mobile/jquery-1.10.1.min.js"/>
+			<F N="zentao/www/js/jquery/mobile/jquery.mobile.min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/placeholder">
+			<F N="zentao/www/js/jquery/placeholder/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/reverseorder">
+			<F N="zentao/www/js/jquery/reverseorder/raw.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/syntaxhighlighter/scripts">
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shAutoloader.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushBash.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushColdFusion.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushCpp.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushCSharp.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushCss.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushJava.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushJScript.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushPerl.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushPhp.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushPlain.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushPython.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushRuby.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shBrushXml.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shCore.js"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/scripts/shLegacy.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/syntaxhighlighter/styles">
+			<F N="zentao/www/js/jquery/syntaxhighlighter/styles/shCore.css"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/styles/shCoreDefault.css"/>
+			<F N="zentao/www/js/jquery/syntaxhighlighter/styles/shThemeDefault.css"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/tablesorter">
+			<F N="zentao/www/js/jquery/tablesorter/metadata.js"/>
+			<F N="zentao/www/js/jquery/tablesorter/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/treetable">
+			<F N="zentao/www/js/jquery/treetable/min.js"/>
+			<F N="zentao/www/js/jquery/treetable/raw.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/treeview">
+			<F N="zentao/www/js/jquery/treeview/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/jquery/validation">
+			<F N="zentao/www/js/jquery/validation/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor">
+			<F N="zentao/www/js/kindeditor/kindeditor-min.js"/>
+			<F N="zentao/www/js/kindeditor/kindeditor.js"/>
+			<F N="zentao/www/js/kindeditor/license.txt"/>
+			<F
+				N="zentao/www/js/kindeditor/Makefile"
+				Type="Makefile"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/lang">
+			<F N="zentao/www/js/kindeditor/lang/ar.js"/>
+			<F N="zentao/www/js/kindeditor/lang/en.js"/>
+			<F N="zentao/www/js/kindeditor/lang/zh_CN.js"/>
+			<F N="zentao/www/js/kindeditor/lang/zh_TW.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/anchor">
+			<F N="zentao/www/js/kindeditor/plugins/anchor/anchor.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/autoheight">
+			<F N="zentao/www/js/kindeditor/plugins/autoheight/autoheight.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/baidumap">
+			<F N="zentao/www/js/kindeditor/plugins/baidumap/index.html"/>
+			<F N="zentao/www/js/kindeditor/plugins/baidumap/map.html"/>
+			<F N="zentao/www/js/kindeditor/plugins/baidumap/baidumap.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/clearhtml">
+			<F N="zentao/www/js/kindeditor/plugins/clearhtml/clearhtml.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/code">
+			<F N="zentao/www/js/kindeditor/plugins/code/code.js"/>
+			<F N="zentao/www/js/kindeditor/plugins/code/prettify.css"/>
+			<F N="zentao/www/js/kindeditor/plugins/code/prettify.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/emoticons">
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/emoticons.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/emoticons/images">
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/0.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/1.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/10.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/100.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/101.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/102.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/103.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/104.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/105.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/106.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/107.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/108.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/109.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/11.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/110.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/111.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/112.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/113.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/114.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/115.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/116.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/117.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/118.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/119.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/12.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/120.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/121.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/122.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/123.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/124.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/125.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/126.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/127.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/128.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/129.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/13.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/130.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/131.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/132.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/133.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/134.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/14.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/15.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/16.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/17.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/18.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/19.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/2.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/20.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/21.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/22.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/23.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/24.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/25.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/26.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/27.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/28.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/29.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/3.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/30.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/31.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/32.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/33.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/34.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/35.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/36.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/37.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/38.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/39.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/4.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/40.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/41.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/42.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/43.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/44.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/45.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/46.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/47.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/48.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/49.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/5.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/50.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/51.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/52.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/53.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/54.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/55.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/56.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/57.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/58.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/59.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/6.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/60.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/61.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/62.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/63.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/64.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/65.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/66.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/67.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/68.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/69.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/7.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/70.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/71.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/72.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/73.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/74.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/75.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/76.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/77.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/78.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/79.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/8.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/80.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/81.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/82.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/83.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/84.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/85.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/86.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/87.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/88.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/89.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/9.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/90.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/91.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/92.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/93.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/94.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/95.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/96.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/97.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/98.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/99.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/emoticons/images/static.gif"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/filemanager">
+			<F N="zentao/www/js/kindeditor/plugins/filemanager/filemanager.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/filemanager/images">
+			<F N="zentao/www/js/kindeditor/plugins/filemanager/images/file-16.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/filemanager/images/file-64.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/filemanager/images/folder-16.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/filemanager/images/folder-64.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/filemanager/images/go-up.gif"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/flash">
+			<F N="zentao/www/js/kindeditor/plugins/flash/flash.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/image">
+			<F N="zentao/www/js/kindeditor/plugins/image/image.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/image/images">
+			<F N="zentao/www/js/kindeditor/plugins/image/images/align_left.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/image/images/align_right.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/image/images/align_top.gif"/>
+			<F N="zentao/www/js/kindeditor/plugins/image/images/refresh.png"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/insertfile">
+			<F N="zentao/www/js/kindeditor/plugins/insertfile/insertfile.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/lineheight">
+			<F N="zentao/www/js/kindeditor/plugins/lineheight/lineheight.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/link">
+			<F N="zentao/www/js/kindeditor/plugins/link/link.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/map">
+			<F N="zentao/www/js/kindeditor/plugins/map/map.html"/>
+			<F N="zentao/www/js/kindeditor/plugins/map/map.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/media">
+			<F N="zentao/www/js/kindeditor/plugins/media/media.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/multiimage">
+			<F N="zentao/www/js/kindeditor/plugins/multiimage/multiimage.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/multiimage/images">
+			<F N="zentao/www/js/kindeditor/plugins/multiimage/images/image.png"/>
+			<F N="zentao/www/js/kindeditor/plugins/multiimage/images/select-files-en.png"/>
+			<F N="zentao/www/js/kindeditor/plugins/multiimage/images/select-files-zh_CN.png"/>
+			<F N="zentao/www/js/kindeditor/plugins/multiimage/images/swfupload.swf"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/pagebreak">
+			<F N="zentao/www/js/kindeditor/plugins/pagebreak/pagebreak.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/plainpaste">
+			<F N="zentao/www/js/kindeditor/plugins/plainpaste/plainpaste.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/preview">
+			<F N="zentao/www/js/kindeditor/plugins/preview/preview.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/quickformat">
+			<F N="zentao/www/js/kindeditor/plugins/quickformat/quickformat.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/table">
+			<F N="zentao/www/js/kindeditor/plugins/table/table.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/template">
+			<F N="zentao/www/js/kindeditor/plugins/template/template.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/template/html">
+			<F N="zentao/www/js/kindeditor/plugins/template/html/1.html"/>
+			<F N="zentao/www/js/kindeditor/plugins/template/html/2.html"/>
+			<F N="zentao/www/js/kindeditor/plugins/template/html/3.html"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/plugins/wordpaste">
+			<F N="zentao/www/js/kindeditor/plugins/wordpaste/wordpaste.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/themes/common">
+			<F N="zentao/www/js/kindeditor/themes/common/anchor.gif"/>
+			<F N="zentao/www/js/kindeditor/themes/common/blank.gif"/>
+			<F N="zentao/www/js/kindeditor/themes/common/flash.gif"/>
+			<F N="zentao/www/js/kindeditor/themes/common/loading.gif"/>
+			<F N="zentao/www/js/kindeditor/themes/common/media.gif"/>
+			<F N="zentao/www/js/kindeditor/themes/common/rm.gif"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/themes/default">
+			<F N="zentao/www/js/kindeditor/themes/default/background.png"/>
+			<F N="zentao/www/js/kindeditor/themes/default/default.css"/>
+			<F N="zentao/www/js/kindeditor/themes/default/default.png"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/themes/qq">
+			<F N="zentao/www/js/kindeditor/themes/qq/editor.gif"/>
+			<F N="zentao/www/js/kindeditor/themes/qq/qq.css"/>
+		</Folder>
+		<Folder Name="zentao/www/js/kindeditor/themes/simple">
+			<F N="zentao/www/js/kindeditor/themes/simple/simple.css"/>
+		</Folder>
+		<Folder Name="zentao/www/js/misc">
+			<F N="zentao/www/js/misc/date.js"/>
+			<F N="zentao/www/js/misc/fusioncharts.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/respond">
+			<F N="zentao/www/js/respond/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/js/zui">
+			<F N="zentao/www/js/zui/min.js"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/blackberry">
+			<F N="zentao/www/theme/blackberry/style.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/browser">
+			<F N="zentao/www/theme/browser/chrome.css"/>
+			<F N="zentao/www/theme/browser/firefox.css"/>
+			<F N="zentao/www/theme/browser/ie.6.css"/>
+			<F N="zentao/www/theme/browser/ie.css"/>
+			<F N="zentao/www/theme/browser/opera.css"/>
+			<F N="zentao/www/theme/browser/safari.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default">
+			<F N="zentao/www/theme/default/en.blackberry.css"/>
+			<F N="zentao/www/theme/default/en.default.css"/>
+			<F N="zentao/www/theme/default/en.green.css"/>
+			<F N="zentao/www/theme/default/en.lightblue.css"/>
+			<F N="zentao/www/theme/default/en.red.css"/>
+			<F N="zentao/www/theme/default/index.css"/>
+			<F N="zentao/www/theme/default/jquery.mobile.css"/>
+			<F N="zentao/www/theme/default/m.en.default.css"/>
+			<F N="zentao/www/theme/default/m.style.css"/>
+			<F N="zentao/www/theme/default/m.zh-cn.default.css"/>
+			<F N="zentao/www/theme/default/m.zh-tw.default.css"/>
+			<F N="zentao/www/theme/default/style.css"/>
+			<F N="zentao/www/theme/default/treetable.css"/>
+			<F N="zentao/www/theme/default/treeview.css"/>
+			<F N="zentao/www/theme/default/zh-cn.blackberry.css"/>
+			<F N="zentao/www/theme/default/zh-cn.default.css"/>
+			<F N="zentao/www/theme/default/zh-cn.green.css"/>
+			<F N="zentao/www/theme/default/zh-cn.lightblue.css"/>
+			<F N="zentao/www/theme/default/zh-cn.red.css"/>
+			<F N="zentao/www/theme/default/zh-tw.blackberry.css"/>
+			<F N="zentao/www/theme/default/zh-tw.default.css"/>
+			<F N="zentao/www/theme/default/zh-tw.green.css"/>
+			<F N="zentao/www/theme/default/zh-tw.lightblue.css"/>
+			<F N="zentao/www/theme/default/zh-tw.red.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default/images/chosen">
+			<F N="zentao/www/theme/default/images/chosen/chosen-sprite.png"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default/images/kindeditor">
+			<F N="zentao/www/theme/default/images/kindeditor/save.gif"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default/images/main">
+			<F N="zentao/www/theme/default/images/main/green.png"/>
+			<F N="zentao/www/theme/default/images/main/icon.png"/>
+			<F N="zentao/www/theme/default/images/main/logo.png"/>
+			<F N="zentao/www/theme/default/images/main/logo2.png"/>
+			<F N="zentao/www/theme/default/images/main/weixin.jpg"/>
+			<F N="zentao/www/theme/default/images/main/zt-icons.png"/>
+			<F N="zentao/www/theme/default/images/main/zt-logo.png"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default/images/mobile">
+			<F N="zentao/www/theme/default/images/mobile/ajax-loader.gif"/>
+			<F N="zentao/www/theme/default/images/mobile/icons-18-black.png"/>
+			<F N="zentao/www/theme/default/images/mobile/icons-18-white.png"/>
+			<F N="zentao/www/theme/default/images/mobile/icons-36-black.png"/>
+			<F N="zentao/www/theme/default/images/mobile/icons-36-white.png"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default/images/treetable">
+			<F N="zentao/www/theme/default/images/treetable/toggle-collapse-dark.png"/>
+			<F N="zentao/www/theme/default/images/treetable/toggle-collapse-light.png"/>
+			<F N="zentao/www/theme/default/images/treetable/toggle-expand-dark.png"/>
+			<F N="zentao/www/theme/default/images/treetable/toggle-expand-light.png"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/default/images/treeview">
+			<F N="zentao/www/theme/default/images/treeview/file.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/folder-closed.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/folder.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/minus.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/plus.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-black-line.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-black.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-default-line.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-default.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-famfamfam-line.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-famfamfam.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-gray-line.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-gray.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-red-line.gif"/>
+			<F N="zentao/www/theme/default/images/treeview/treeview-red.gif"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/green">
+			<F N="zentao/www/theme/green/style.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/lang">
+			<F N="zentao/www/theme/lang/en.css"/>
+			<F N="zentao/www/theme/lang/zh-cn.css"/>
+			<F N="zentao/www/theme/lang/zh-tw.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/lightblue">
+			<F N="zentao/www/theme/lightblue/style.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/red">
+			<F N="zentao/www/theme/red/style.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/zui/css">
+			<F N="zentao/www/theme/zui/css/min.css"/>
+		</Folder>
+		<Folder Name="zentao/www/theme/zui/fonts">
+			<F N="zentao/www/theme/zui/fonts/zenicon.eot"/>
+			<F N="zentao/www/theme/zui/fonts/zenicon.svg"/>
+			<F N="zentao/www/theme/zui/fonts/zenicon.ttf"/>
+			<F N="zentao/www/theme/zui/fonts/zenicon.woff"/>
+		</Folder>
+		<F N="readme.txt"/>
+		<F N="启动禅道.exe"/>
+		<F N="开源版本修订记录.log"/>
+		<F N="硬件项目测试管理系统.sublime-project"/>
+		<F N="硬件项目测试管理系统.sublime-workspace"/>
+		<F N="硬件项目测试管理系统.vpj"/>
+		<F N="硬件项目测试管理系统.vpw"/>
+		<F N="硬件项目测试管理系统.vpwhist"/>
+	</Files>
+</Project>

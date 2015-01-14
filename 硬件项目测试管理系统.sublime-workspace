@@ -1,0 +1,650 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"errorMes",
+				"errorMessage"
+			],
+			[
+				"cl",
+				"clength"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"arr",
+				"arrlength"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"no",
+				"noscrit"
+			]
+		]
+	},
+	"build_system": "Packages/User/PHP.sublime-build",
+	"command_palette":
+	{
+		"height": 370.0,
+		"selected_items":
+		[
+			[
+				"ct",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Pacup",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa c up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa c:up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa c:u",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"qa",
+				"Git: Quick Add"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"in pa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa re op",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pa re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"git:push",
+				"Git: Push"
+			],
+			[
+				"git:com",
+				"Git: Commit"
+			],
+			[
+				"git:ver",
+				"Git: Version"
+			],
+			[
+				"git:status",
+				"Git: Status"
+			],
+			[
+				"git:qa",
+				"Git: Quick Add"
+			],
+			[
+				"pa revor",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pa resv:o",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pa rev:op",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pare",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ins pa",
+				"Package Control: Install Package"
+			],
+			[
+				"re pa",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"remo pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git:pus",
+				"Git: Push"
+			],
+			[
+				"git:q a",
+				"Git: Quick Add"
+			],
+			[
+				"git:comm",
+				"Git: Commit"
+			],
+			[
+				"inst pa",
+				"Package Control: Install Package"
+			],
+			[
+				"remov pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inpa",
+				"Package Control: Install Package"
+			],
+			[
+				"git:stat",
+				"Git: Status"
+			],
+			[
+				"git:sta",
+				"Git: Status"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"git:add cf",
+				"Git: Add Current File"
+			],
+			[
+				"git:log",
+				"Git: Log"
+			],
+			[
+				"git:acf",
+				"Git: Add Current File"
+			],
+			[
+				"git:remote",
+				"Git: Add Remote"
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"git:addcf",
+				"Git: Add Current File"
+			],
+			[
+				"git:add re",
+				"Git: Add Remote"
+			],
+			[
+				"git:add remo",
+				"Git: Add Remote"
+			],
+			[
+				"git:commit",
+				"Git: Commit"
+			],
+			[
+				"git:init",
+				"Git: Init"
+			],
+			[
+				"git:add c",
+				"Git: Add Current File"
+			],
+			[
+				"git:add rem",
+				"Git: Add Remote"
+			],
+			[
+				"git:add ",
+				"Git: Add Current File"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git diff",
+				"Git: Diff All Files"
+			],
+			[
+				"git:add .",
+				"Git: Add..."
+			],
+			[
+				"git:add",
+				"Git: Add Current File"
+			],
+			[
+				"",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"mpc",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"mp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Toggle Comment"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/xampp/zentao/module/bug/lang/en.php",
+		"/D/xampp/zentao/module/bug/lang/zh-tw.php",
+		"/D/xampp/zentao/module/bug/lang/zh-cn.php",
+		"/D/xampp/zentao/module/common/lang/zh-cn.php",
+		"/D/xampp/zentao/module/custom/lang/zh-cn.php",
+		"/D/xampp/zentao/module/testcase/lang/zh-tw.php",
+		"/D/xampp/zentao/module/testcase/lang/zh-cn.php",
+		"/D/xampp/zentao/module/testcase/lang/en.php",
+		"/D/xampp/zentao/module/bug/view/create.html.php",
+		"/D/xampp/zentao/module/bug/control.php",
+		"/D/xampp/zentao/module/bug/js/browse.js",
+		"/D/xampp/zentao/module/productplan/lang/zh-cn.php",
+		"/D/xampp/php/php.ini",
+		"/D/xampp/zentao/module/release/lang/zh-cn.php",
+		"/D/xampp/zentao/module/mail/lang/zh-cn.php",
+		"/D/xampp/zentao/module/todo/lang/zh-cn.php",
+		"/D/xampp/zentao/module/user/lang/zh-cn.php",
+		"/D/xampp/zentao/module/tree/lang/zh-cn.php",
+		"/D/xampp/zentao/module/todo/lang/zh-tw.php",
+		"/D/xampp/zentao/module/todo/config.php",
+		"/D/xampp/zentao/module/todo/lang/en.php",
+		"/D/xampp/zentao/module/report/lang/zh-cn.php",
+		"/D/xampp/zentao/module/mail/config.php",
+		"/D/xampp/zentao/module/mail/view/test.html.php",
+		"/D/xampp/zentao/module/mail/view/edit.html.php",
+		"/D/xampp/zentao/module/misc/lang/zh-cn.php",
+		"/D/xampp/zentao/module/misc/view/getsid.html.php",
+		"/D/xampp/zentao/module/misc/view/links.html.php",
+		"/D/xampp/zentao/module/misc/view/about.html.php",
+		"/D/xampp/zentao/module/misc/ext/config/config1.php",
+		"/D/xampp/zentao/module/index/lang/zh-cn.php",
+		"/D/xampp/zentao/module/task/lang/zh-cn.php",
+		"/D/xampp/zentao/module/project/lang/zh-cn.php",
+		"/D/xampp/zentao/module/file/lang/zh-cn.php",
+		"/D/xampp/zentao/module/editor/lang/zh-cn.php",
+		"/D/xampp/zentao/module/doc/lang/zh-cn.php",
+		"/D/xampp/zentao/module/build/lang/zh-cn.php",
+		"/D/xampp/zentao/module/api/lang/zh-cn.php",
+		"/D/xampp/zentao/module/action/lang/en.php",
+		"/D/xampp/zentao/module/action/lang/zh-tw.php",
+		"/D/xampp/zentao/module/admin/lang/en.php",
+		"/D/xampp/zentao/module/admin/lang/zh-cn.php",
+		"/D/xampp/zentao/module/action/lang/zh-cn.php",
+		"/D/xampp/zentao/module/admin/lang/zh-tw.php",
+		"/D/xampp/apache/conf/httpd.conf",
+		"/D/xampp/phpmyadmin/config.inc.php",
+		"/D/xampp/zentao/config/my.php",
+		"/D/xampp/zentao/config/config.php",
+		"/D/xampp/htdocs/index.php",
+		"/D/xampp/zentao/module/common/lang/en.php",
+		"/D/xampp/zentao/module/common/lang/zh-tw.php",
+		"/D/xampp/zentao/module/my/lang/zh-cn.php",
+		"/D/xampp/phpmyadmin/index.php",
+		"/D/xampp/zentao/module/common/lang/menuOrder.php",
+		"/D/xampp/zentao/module/index/control.php",
+		"/D/xampp/zentao/module/index/lang/zh-tw.php",
+		"/D/xampp/zentao/db/zentao.sql",
+		"/D/xampp/zentao/module/user/view/login.html.php",
+		"/D/xampp/readme.txt",
+		"/D/xampp/zentao/module/user/config.php",
+		"/D/xampp/zentao/www/theme/lang/zh-cn.css",
+		"/D/xampp/zentao/www/theme/default/treeview.css",
+		"/D/xampp/zentao/www/ioncube.php",
+		"/D/xampp/zentao/www/theme/default/zh-cn.default.css",
+		"/D/xampp/zentao/www/theme/default/index.css",
+		"/D/xampp/zentao/www/install.php",
+		"/D/xampp/zentao/www/index.php",
+		"/D/xampp/zentao/module/user/js/login.js",
+		"/D/xampp/zentao/module/user/view/m.login.html.php",
+		"/D/xampp/zentao/module/user/js/m.login.js",
+		"/C/Users/CKY/Documents/My RTX Files/蔡锴晔/西郊地铁验证简要说明.txt",
+		"/E/360yunpan/RuiJieNetwork/10_凌乱一角/账号信息.txt",
+		"/F/Temp/系统升级记录.txt",
+		"/C/Users/CKY/Desktop/s d a a.vbs",
+		"/C/Users/CKY/Desktop/智分部署/sh d a a.vbs",
+		"/F/Downloads/Cadence16.6破解文件加安装步骤/crack/LicGen/license.lic",
+		"/C/Windows/System32/ctags58/README",
+		"/C/Users/CKY/Desktop/MarkdownPad Pro 2.4.4.40074_ttrar.com/--== Readme==--.txt",
+		"/F/Downloads/imindmap7和谐过程.txt",
+		"/F/Downloads/Software/VMware 11/vmware 11 注册码.txt",
+		"/C/Users/CKY/Desktop/乐邦电源思路细节.txt",
+		"/E/360yunpan/RuiJieNetwork/01_办公文档/0101_总结汇报/010101_周总结/2014年/项目进展周报/项目测试情况周汇报【20141121】.txt",
+		"/F/Downloads/BQQ2008/安装包说明.txt",
+		"/E/360yunpan/RuiJieNetwork/Repository/Bitbucket/PrivateLibrary_WEB-study/PHP/Advance/demo_exception_handler.php",
+		"/E/360yunpan/RuiJieNetwork/Repository/Bitbucket/PrivateLibrary_WEB-study/PHP/Advance/demo_throw_exception_again.php",
+		"/E/360yunpan/RuiJieNetwork/Repository/Bitbucket/PrivateLibrary_WEB-study/PHP/Advance/demo_many_exception.php",
+		"/E/360yunpan/RuiJieNetwork/Repository/Bitbucket/PrivateLibrary_WEB-study/tree.txt",
+		"/E/360yunpan/RuiJieNetwork/Repository/Bitbucket/PrivateLibrary_WEB-study/PHP/Advance/Notice"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".w-pri",
+			"产品",
+			"statusList",
+			"已解决",
+			"resolved",
+			"browserList",
+			"浏览器",
+			"操作系统",
+			"win8",
+			"操作系统",
+			"lblSystemBrowserAndHardware",
+			"浏览器",
+			"系統/浏览器",
+			"designchange",
+			"interface",
+			"codeerror",
+			"软件BUG",
+			"代码错误",
+			"codeerror",
+			"优先级",
+			"codeerror",
+			"lblSystemBrowserAndHardware",
+			"82",
+			"硬件项目测试管理系统",
+			"82",
+			"6.4",
+			"禅道",
+			"ping 192.168.0.26 -c 5",
+			"恢复原始权限",
+			"bold",
+			"  \n",
+			"ctrl+alt+u",
+			"ctrl+shift+x",
+			"ctrl+shift+f",
+			"ctrl+shift+y",
+			"ctrl+shift+r",
+			"ctrl+shift+e",
+			"+c",
+			"ctrl+shift+c",
+			"html",
+			"reindent",
+			"UTF",
+			"UTF-8",
+			"...\n",
+			"value",
+			"\"default_encoding_on_create\"",
+			"\"default_encoding_on_create\" : \"GBK\"，",
+			"\"default_encoding\": \"UTF-8\",",
+			"indent_to_bracket",
+			"var_dump($x == $y);\necho \"<br>\";",
+			"z",
+			"green",
+			"sublime",
+			"home",
+			"X",
+			"name",
+			"meta",
+			"body",
+			"description",
+			"keywords",
+			">\n",
+			"ddr3",
+			"No.166",
+			"No.1 ",
+			"No.1",
+			"DDR3",
+			"No.1",
+			"安装",
+			"2014-09-24",
+			"2014-09-24 18:00:19",
+			"txt",
+			"open_files_in_new_window",
+			"font_size",
+			"\\",
+			"keys",
+			"keyss",
+			"menu",
+			"me",
+			"line_padding_top",
+			"line_padding_bottom",
+			"line padding",
+			"sda1",
+			"sta1",
+			"file type",
+			"reload",
+			"open",
+			"reload"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"恢复权限",
+			"\\\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 166.0
+	},
+	"output.find_results":
+	{
+		"height": 144.0
+	},
+	"output.git":
+	{
+		"height": 146.0
+	},
+	"output.git-commit":
+	{
+		"height": 146.0
+	},
+	"output.git-init":
+	{
+		"height": 146.0
+	},
+	"output.git-push":
+	{
+		"height": 146.0
+	},
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

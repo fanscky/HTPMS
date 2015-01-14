@@ -1,0 +1,9 @@
+修订记录：
+[2015-1-13] 
+【1】/zentao/module/user/view/login.html.php 
+     注释 line：72~76    解决登录界面出现“禅道广告”；
+
+
+[2015-1-14]
+【1】/zentao/module/common/model.php
+     注释 line：297  去掉页面右上方“关于”
