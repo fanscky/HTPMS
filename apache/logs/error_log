@@ -451,3 +451,44 @@ Apache server interrupted...
 [Wed Jan 14 14:42:41.525018 2015] [mpm_winnt:notice] [pid 38628:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Wed Jan 14 14:42:43.526132 2015] [mpm_winnt:notice] [pid 34984:tid 452] AH00364: Child: All worker threads have exited.
 [Wed Jan 14 14:42:43.566134 2015] [mpm_winnt:notice] [pid 38628:tid 600] AH00430: Parent: Child process 34984 exited successfully.
+[Wed Jan 14 14:44:48.341271 2015] [mpm_winnt:notice] [pid 34516:tid 600] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Wed Jan 14 14:44:48.341271 2015] [mpm_winnt:notice] [pid 34516:tid 600] AH00456: Server built: Feb 23 2013 13:07:34
+[Wed Jan 14 14:44:48.341271 2015] [core:notice] [pid 34516:tid 600] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Wed Jan 14 14:44:48.344271 2015] [mpm_winnt:notice] [pid 34516:tid 600] AH00418: Parent: Created child process 38832
+[Wed Jan 14 14:44:49.349329 2015] [mpm_winnt:notice] [pid 38832:tid 452] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 14 17:29:54.309860 2015] [access_compat:error] [pid 38832:tid 1704] [client 192.168.215.116:50132] AH01797: client denied by server configuration: F:/xampp/phpmyadmin/, referer: http://192.168.215.120/
+[Wed Jan 14 20:29:21.124687 2015] [mpm_winnt:notice] [pid 34516:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 14 20:29:23.126801 2015] [mpm_winnt:notice] [pid 38832:tid 452] AH00364: Child: All worker threads have exited.
+[Wed Jan 14 20:29:23.178804 2015] [mpm_winnt:notice] [pid 34516:tid 600] AH00430: Parent: Child process 38832 exited successfully.
+[Wed Jan 14 20:30:31.586717 2015] [mpm_winnt:notice] [pid 40360:tid 600] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Wed Jan 14 20:30:31.586717 2015] [mpm_winnt:notice] [pid 40360:tid 600] AH00456: Server built: Feb 23 2013 13:07:34
+[Wed Jan 14 20:30:31.586717 2015] [core:notice] [pid 40360:tid 600] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Wed Jan 14 20:30:31.589717 2015] [mpm_winnt:notice] [pid 40360:tid 600] AH00418: Parent: Created child process 40580
+[Wed Jan 14 20:30:32.604775 2015] [mpm_winnt:notice] [pid 40580:tid 452] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 14 20:35:54.214170 2015] [mpm_winnt:notice] [pid 40360:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 14 20:35:56.215285 2015] [mpm_winnt:notice] [pid 40580:tid 452] AH00364: Child: All worker threads have exited.
+[Wed Jan 14 20:35:56.250287 2015] [mpm_winnt:notice] [pid 40360:tid 600] AH00430: Parent: Child process 40580 exited successfully.
+[Wed Jan 14 20:37:56.702176 2015] [mpm_winnt:notice] [pid 36916:tid 600] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Wed Jan 14 20:37:56.702176 2015] [mpm_winnt:notice] [pid 36916:tid 600] AH00456: Server built: Feb 23 2013 13:07:34
+[Wed Jan 14 20:37:56.702176 2015] [core:notice] [pid 36916:tid 600] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Wed Jan 14 20:37:56.705176 2015] [mpm_winnt:notice] [pid 36916:tid 600] AH00418: Parent: Created child process 39648
+[Wed Jan 14 20:37:57.675232 2015] [mpm_winnt:notice] [pid 39648:tid 452] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 16 13:53:19.339185 2015] [mpm_winnt:notice] [pid 36916:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 16 13:53:21.341300 2015] [mpm_winnt:notice] [pid 39648:tid 452] AH00364: Child: All worker threads have exited.
+[Fri Jan 16 13:53:21.419304 2015] [mpm_winnt:notice] [pid 36916:tid 600] AH00430: Parent: Child process 39648 exited successfully.
+[Fri Jan 16 14:15:33.229671 2015] [mpm_winnt:notice] [pid 5020:tid 628] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Fri Jan 16 14:15:33.245273 2015] [mpm_winnt:notice] [pid 5020:tid 628] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Jan 16 14:15:33.245273 2015] [core:notice] [pid 5020:tid 628] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Fri Jan 16 14:15:33.260874 2015] [mpm_winnt:notice] [pid 5020:tid 628] AH00418: Parent: Created child process 6656
+[Fri Jan 16 14:15:33.994084 2015] [mpm_winnt:notice] [pid 6656:tid 504] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 16 14:15:49.360248 2015] [mpm_winnt:notice] [pid 5020:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 16 14:15:51.388270 2015] [mpm_winnt:notice] [pid 6656:tid 504] AH00364: Child: All worker threads have exited.
+[Fri Jan 16 14:15:51.403870 2015] [mpm_winnt:notice] [pid 5020:tid 628] AH00430: Parent: Child process 6656 exited successfully.
+[Fri Jan 16 14:16:17.424954 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Fri Jan 16 14:16:17.424954 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Jan 16 14:16:17.424954 2015] [core:notice] [pid 6216:tid 624] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Fri Jan 16 14:16:17.471755 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00418: Parent: Created child process 4088
+[Fri Jan 16 14:16:18.298563 2015] [mpm_winnt:notice] [pid 4088:tid 504] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 16 14:18:41.291467 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 16 14:18:43.319488 2015] [mpm_winnt:notice] [pid 4088:tid 504] AH00364: Child: All worker threads have exited.
+[Fri Jan 16 14:18:43.350690 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00430: Parent: Child process 4088 exited successfully.

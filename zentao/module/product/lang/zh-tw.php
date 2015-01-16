@@ -90,5 +90,5 @@ $lang->product->aclList['open']    = '預設設置(有產品視圖權限，即�
 $lang->product->aclList['private'] = '私有產品(只有項目團隊成員才能訪問)';
 $lang->product->aclList['custom']  = '自定義白名單(團隊成員和白名單的成員可以訪問)';
 
-$lang->product->storySummary = "本頁共 <strong>%s</strong> 個需求，預計 <strong>%s</strong> 個工時，用例覆蓋率<strong>%s</strong>。";
+$lang->product->storySummary = "本頁共 <strong>%s</strong> 個需求，預計週期 <strong>%s</strong> 個小時，用例覆蓋率<strong>%s</strong>。";
 $lang->product->noMatched    = '找不到包含"%s"的產品';

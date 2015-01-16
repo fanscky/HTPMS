@@ -7,3 +7,21 @@
 [2015-1-14]
 【1】/zentao/module/common/model.php
      注释 line：297  去掉页面右上方“关于”
+
+[2015-1-15]
+【1】/zentao/module/story/lang/zh-cn.php
+     line：52、53改为“预计周期”；
+
+     /zentao/module/story/lang/zh-tw.php
+     line：52、53改为“預計週期”
+
+【2】/zentao/module/product/lang/zh-cn.php
+     line：93 改為“本页共 <strong>%s</strong> 个需求，预计周期 <strong>%s</strong> 个小时，用例覆盖率<strong>%s</strong>。”
+
+     /zentao/module/product/lang/zh-cn.php
+     line：93 改為“本頁共 <strong>%s</strong> 個需求，預計週期 <strong>%s</strong> 個小時，用例覆蓋率<strong>%s</strong>。”
+【3】/zentao/module/common/lang/zh-cn.php
+     line：223 改為“$lang->bug->menu->testtask = array('link' => '版本&执行|testtask|browse|productID=%s');”
+     line：235 改為“$lang->testcase->menu->testtask = array('link' => '版本&执行|testtask|browse|productID=%s', 'alias' => 'view,create,edit,linkcase,cases,start,close,batchrun,groupcase');”
+
+     zh-tw.php同理
