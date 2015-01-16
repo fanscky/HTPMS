@@ -60,6 +60,11 @@ $lang->todo->priList[4] = '4';
 $lang->todo->typeList['custom'] = 'Custom';
 $lang->todo->typeList['bug']    = 'Bug';
 $lang->todo->typeList['task']   = 'Task';
+$lang->todo->typeList['study'] = 'Study';
+$lang->todo->typeList['meeting'] = 'Meeting';
+$lang->todo->typeList['technology'] = 'Technology';
+$lang->todo->typeList['resource'] = 'Resource';
+$lang->todo->typeList['noassign'] = 'noassigntask';
 
 $lang->todo->confirmDelete  = "Are you sure to delete this todo?";
 $lang->todo->successMarked  = "Successfully changed status";;

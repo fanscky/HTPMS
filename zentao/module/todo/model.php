@@ -38,6 +38,11 @@ class todoModel extends model
         $this->dao->insert(TABLE_TODO)->data($todo)
             ->autoCheck()
             ->checkIF($todo->type == 'custom', $this->config->todo->create->requiredFields, 'notempty')
+            ->checkIF($todo->type == 'study', $this->config->todo->create->requiredFields, 'notempty')
+            ->checkIF($todo->type == 'meeting', $this->config->todo->create->requiredFields, 'notempty')
+            ->checkIF($todo->type == 'technology', $this->config->todo->create->requiredFields, 'notempty')
+            ->checkIF($todo->type == 'resource', $this->config->todo->create->requiredFields, 'notempty')
+            ->checkIF($todo->type == 'noassign', $this->config->todo->create->requiredFields, 'notempty')
             ->checkIF($todo->type == 'bug'  and $todo->idvalue == 0, 'idvalue', 'notempty')
             ->checkIF($todo->type == 'task' and $todo->idvalue == 0, 'idvalue', 'notempty')
             ->exec();

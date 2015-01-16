@@ -42,6 +42,26 @@ function loadList(type, id)
     {
         $(divClass).html($(divID).html());
     }
+    else if(type == 'study')
+    {
+        $(divClass).html($(divID).html());
+    }
+    else if(type == 'meeting')
+    {
+        $(divClass).html($(divID).html());
+    }
+    else if(type == 'technology')
+    {
+        $(divClass).html($(divID).html());
+    }
+    else if(type == 'resource')
+    {
+        $(divClass).html($(divID).html());
+    }
+    else if(type == 'noassign')
+    {
+        $(divClass).html($(divID).html());
+    }
 }
 
 function selectNext()

@@ -492,3 +492,8 @@ Apache server interrupted...
 [Fri Jan 16 14:18:41.291467 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Jan 16 14:18:43.319488 2015] [mpm_winnt:notice] [pid 4088:tid 504] AH00364: Child: All worker threads have exited.
 [Fri Jan 16 14:18:43.350690 2015] [mpm_winnt:notice] [pid 6216:tid 624] AH00430: Parent: Child process 4088 exited successfully.
+[Fri Jan 16 17:10:31.182052 2015] [mpm_winnt:notice] [pid 7872:tid 628] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Fri Jan 16 17:10:31.182052 2015] [mpm_winnt:notice] [pid 7872:tid 628] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Jan 16 17:10:31.182052 2015] [core:notice] [pid 7872:tid 628] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Fri Jan 16 17:10:31.244452 2015] [mpm_winnt:notice] [pid 7872:tid 628] AH00418: Parent: Created child process 8180
+[Fri Jan 16 17:10:32.008861 2015] [mpm_winnt:notice] [pid 8180:tid 504] AH00354: Child: Starting 150 worker threads.

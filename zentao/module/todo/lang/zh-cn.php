@@ -60,6 +60,11 @@ $lang->todo->priList[4] = '最低';
 $lang->todo->typeList['custom'] = '自定义';
 $lang->todo->typeList['bug']    = 'Bug';
 $lang->todo->typeList['task']   = '项目任务';
+$lang->todo->typeList['study'] = '学习交流';
+$lang->todo->typeList['meeting'] = '会议核对';
+$lang->todo->typeList['technology'] = '专项技术';
+$lang->todo->typeList['resource'] = '资源协调';
+$lang->todo->typeList['noassign'] = '项目任务（暂未指派）';
 
 $lang->todo->confirmDelete  = "您确定要删除这条待办吗？";
 $lang->todo->successMarked  = "成功切换状态！";

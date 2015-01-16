@@ -60,6 +60,12 @@ $lang->todo->priList[4] = '最低';
 $lang->todo->typeList['custom'] = '自定義';
 $lang->todo->typeList['bug']    = 'Bug';
 $lang->todo->typeList['task']   = '項目任務';
+$lang->todo->typeList['study'] = '學習交流';
+$lang->todo->typeList['meeting'] = '會議核對';
+$lang->todo->typeList['technology'] = '專項技術';
+$lang->todo->typeList['resource'] = '資源協調';
+$lang->todo->typeList['noassign'] = '項目任務（暫未指派）';
+
 
 $lang->todo->confirmDelete  = "您確定要刪除這條待辦嗎？";
 $lang->todo->successMarked  = "成功切換狀態！";

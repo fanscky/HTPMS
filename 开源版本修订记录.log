@@ -25,3 +25,15 @@
      line：235 改為“$lang->testcase->menu->testtask = array('link' => '版本&执行|testtask|browse|productID=%s', 'alias' => 'view,create,edit,linkcase,cases,start,close,batchrun,groupcase');”
 
      zh-tw.php同理
+
+[2015-1-16]
+【1】/zentao/module/todo/model.php
+     新增 line：41~45
+
+     /zentao/module/todo/js/common.js
+     新增 line：45~64 对新增键值动作控制
+
+     /zentao/module/todo/lang/zh-cn.php
+     /zentao/module/todo/lang/zh-tw.php
+     /zentao/module/todo/lang/en.php
+     line 62~67：将自定义键值写入默认中
