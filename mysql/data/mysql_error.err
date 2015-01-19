@@ -805,3 +805,115 @@ Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
 150116 17:10:35 [Note] Event Scheduler: Loaded 0 events
 150116 17:10:35 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
 Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 16:32:48 [Note] Plugin 'FEDERATED' is disabled.
+150119 16:32:48 [Note] Plugin 'InnoDB' is disabled.
+150119 16:32:48 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 16:32:48 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 16:32:48 [Note] Server socket created on IP: '0.0.0.0'.
+150119 16:32:48 [Note] Event Scheduler: Loaded 0 events
+150119 16:32:48 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 16:36:45 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 16:36:45 [Note] Event Scheduler: Purging the queue. 0 events
+150119 16:36:45 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 16:36:55 [Note] Plugin 'FEDERATED' is disabled.
+150119 16:36:55 [Note] Plugin 'InnoDB' is disabled.
+150119 16:36:55 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 16:36:55 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 16:36:55 [Note] Server socket created on IP: '0.0.0.0'.
+150119 16:36:55 [Note] Event Scheduler: Loaded 0 events
+150119 16:36:55 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 16:39:36 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 16:39:36 [Note] Event Scheduler: Purging the queue. 0 events
+150119 16:39:36 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 16:39:49 [Note] Plugin 'FEDERATED' is disabled.
+150119 16:39:49 [Note] Plugin 'InnoDB' is disabled.
+150119 16:39:49 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 16:39:49 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 16:39:49 [Note] Server socket created on IP: '0.0.0.0'.
+150119 16:39:49 [Note] Event Scheduler: Loaded 0 events
+150119 16:39:49 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 16:47:09 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 16:47:09 [Note] Event Scheduler: Purging the queue. 0 events
+150119 16:47:09 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 16:56:18 [Note] Plugin 'FEDERATED' is disabled.
+150119 16:56:18 [Note] Plugin 'InnoDB' is disabled.
+150119 16:56:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 16:56:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 16:56:18 [Note] Server socket created on IP: '0.0.0.0'.
+150119 16:56:18 [Note] Event Scheduler: Loaded 0 events
+150119 16:56:18 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 16:56:47 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 16:56:47 [Note] Event Scheduler: Purging the queue. 0 events
+150119 16:56:47 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 16:57:07 [Note] Plugin 'FEDERATED' is disabled.
+150119 16:57:07 [Note] Plugin 'InnoDB' is disabled.
+150119 16:57:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 16:57:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 16:57:07 [Note] Server socket created on IP: '0.0.0.0'.
+150119 16:57:07 [Note] Event Scheduler: Loaded 0 events
+150119 16:57:07 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 17:00:10 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 17:00:10 [Note] Event Scheduler: Purging the queue. 0 events
+150119 17:00:10 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 17:01:43 [Note] Plugin 'FEDERATED' is disabled.
+150119 17:01:43 [Note] Plugin 'InnoDB' is disabled.
+150119 17:01:43 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 17:01:43 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 17:01:43 [Note] Server socket created on IP: '0.0.0.0'.
+150119 17:01:43 [Note] Event Scheduler: Loaded 0 events
+150119 17:01:43 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 17:01:56 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 17:01:56 [Note] Event Scheduler: Purging the queue. 0 events
+150119 17:01:56 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 17:03:29 [Note] Plugin 'FEDERATED' is disabled.
+150119 17:03:29 [Note] Plugin 'InnoDB' is disabled.
+150119 17:03:29 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 17:03:29 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 17:03:29 [Note] Server socket created on IP: '0.0.0.0'.
+150119 17:03:29 [Note] Event Scheduler: Loaded 0 events
+150119 17:03:29 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 17:03:38 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 17:03:38 [Note] Event Scheduler: Purging the queue. 0 events
+150119 17:03:38 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 17:03:57 [Note] Plugin 'FEDERATED' is disabled.
+150119 17:03:57 [Note] Plugin 'InnoDB' is disabled.
+150119 17:03:57 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 17:03:57 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 17:03:57 [Note] Server socket created on IP: '0.0.0.0'.
+150119 17:03:57 [Note] Event Scheduler: Loaded 0 events
+150119 17:03:57 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
+150119 17:04:09 [Note] F:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+150119 17:04:09 [Note] Event Scheduler: Purging the queue. 0 events
+150119 17:04:09 [Note] F:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+150119 17:04:25 [Note] Plugin 'FEDERATED' is disabled.
+150119 17:04:25 [Note] Plugin 'InnoDB' is disabled.
+150119 17:04:25 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+150119 17:04:25 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150119 17:04:25 [Note] Server socket created on IP: '0.0.0.0'.
+150119 17:04:25 [Note] Event Scheduler: Loaded 0 events
+150119 17:04:25 [Note] F:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3308  MySQL Community Server (GPL)
