@@ -86,3 +86,6 @@
 
 16:34:10 ERROR: SQLSTATE[HY000]: General error: 1 Can't create/write to file 'F:\xampp\mysql\tmp\#sql21e8_3_0.MYI' (Errcode: 2)The sql is: INSERT INTO `zt_action` SET `objectType` = 'user',`objectID` = '2',`actor` = 'caikaiye',`action` = 'login',`date` = '2015-01-19 16:34:10',`comment` = '',`extra` = '',`product` = ',0,',`project` = '0' in F:\xampp\zentao\lib\dao\dao.class.php on line 1058, last called by F:\xampp\zentao\lib\dao\dao.class.php on line 992 through function sqlError.
  in F:\xampp\zentao\framework\router.class.php on line 1589 when visiting user-login-L3plbnRhby8=
+
+19:26:39 ERROR: SQLSTATE[HY000]: General error: 1 Can't create/write to file 'F:\xampp\mysql\tmp\#sql27c4_3_0.MYI' (Errcode: 2)The sql is: INSERT INTO `zt_action` SET `objectType` = 'user',`objectID` = '2',`actor` = 'caikaiye',`action` = 'login',`date` = '2015-01-19 19:26:39',`comment` = '',`extra` = '',`product` = ',0,',`project` = '0' in F:\xampp\zentao\lib\dao\dao.class.php on line 1058, last called by F:\xampp\zentao\lib\dao\dao.class.php on line 992 through function sqlError.
+ in F:\xampp\zentao\framework\router.class.php on line 1589 when visiting user-login-L3plbnRhby8=

@@ -610,3 +610,40 @@ Apache server interrupted...
 [Mon Jan 19 17:16:04.578535 2015] [:error] [pid 10284:tid 1700] [client 127.0.0.1:59272] PHP MyException:  some description in F:\\xampp\\zentao\\www\\demo_php_var2.php on line 28
 [Mon Jan 19 17:16:04.578535 2015] [:error] [pid 10284:tid 1700] [client 127.0.0.1:59272] PHP Stack trace:
 [Mon Jan 19 17:16:04.578535 2015] [:error] [pid 10284:tid 1700] [client 127.0.0.1:59272] PHP   1. {main}() F:\\xampp\\zentao\\www\\demo_php_var2.php:0
+[Mon Jan 19 17:31:24.060882 2015] [mpm_winnt:notice] [pid 10340:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 19 17:31:26.063138 2015] [mpm_winnt:notice] [pid 10284:tid 496] AH00364: Child: All worker threads have exited.
+[Mon Jan 19 17:31:26.087141 2015] [mpm_winnt:notice] [pid 10340:tid 680] AH00430: Parent: Child process 10284 exited successfully.
+[Mon Jan 19 19:25:50.090893 2015] [mpm_winnt:notice] [pid 4616:tid 628] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Mon Jan 19 19:25:50.090893 2015] [mpm_winnt:notice] [pid 4616:tid 628] AH00456: Server built: Feb 23 2013 13:07:34
+[Mon Jan 19 19:25:50.090893 2015] [core:notice] [pid 4616:tid 628] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Mon Jan 19 19:25:50.130899 2015] [mpm_winnt:notice] [pid 4616:tid 628] AH00418: Parent: Created child process 10148
+[Mon Jan 19 19:25:50.895997 2015] [mpm_winnt:notice] [pid 10148:tid 504] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 19 19:26:39.722227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP PDOException:  SQLSTATE[HY000]: General error: 1 Can't create/write to file 'F:\\xampp\\mysql\\tmp\\#sql27c4_3_0.MYI' (Errcode: 2) in F:\\xampp\\zentao\\lib\\dao\\dao.class.php on line 987, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.722227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP Stack trace:, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.722227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   1. {main}() F:\\xampp\\zentao\\www\\index.php:0, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.722227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   2. router->loadModule() F:\\xampp\\zentao\\www\\index.php:55, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.723227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   3. call_user_func_array:{F:\\xampp\\zentao\\framework\\router.class.php:1153}(array (0 => class user { public $referer = '/zentao/'; protected $app = class router { ... }; protected $config = class config { ... }; protected $lang = class language { ... }; protected $dbh = class PDO { ... }; public $dao = class dao { ... }; public $post = class super { ... }; public $get = class super { ... }; public $session = class super { ... }; public $server = class super { ... }; public $cookie = class super { ... }; public $global = class super { ... }; protected $moduleName = 'user'; public $view = class stdClass { ... }; private ${control}:viewType = 'html'; private ${control}:output = NULL; protected $pathFix = '\\\\'; public $viewPrefix = ''; public $methodName = 'login'; public $user = class userModel { ... }; public $company = class companyModel { ... }; public $dept = class deptModel { ... }; public $todo = class todoModel { ... }; public $action = class actionModel { ... } }, 1 => 'login'), array ('referer' => 'L3plbnRhby8=', 'from' => '')) F:\\xampp\\zentao\\framework\\router.class.php:1153, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.723227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   4. user->login($referer = 'L3plbnRhby8=', $from = '') F:\\xampp\\zentao\\framework\\router.class.php:1153, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.723227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   5. actionModel->create($objectType = 'user', $objectID = '2', $actionType = 'login', $comment = *uninitialized*, $extra = *uninitialized*, $actor = *uninitialized*) F:\\xampp\\zentao\\module\\user\\control.php:655, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.723227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   6. dao->autoCheck($skipFields = *uninitialized*) F:\\xampp\\zentao\\module\\action\\model.php:50, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.723227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   7. dao->getFieldsType() F:\\xampp\\zentao\\lib\\dao\\dao.class.php:875, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:26:39.723227 2015] [:error] [pid 10148:tid 1704] [client 127.0.0.1:62106] PHP   8. PDO->query('DESC `zt_action`') F:\\xampp\\zentao\\lib\\dao\\dao.class.php:987, referer: http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html
+[Mon Jan 19 19:29:50.330229 2015] [mpm_winnt:notice] [pid 4616:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 19 19:29:52.358252 2015] [mpm_winnt:notice] [pid 10148:tid 504] AH00364: Child: All worker threads have exited.
+[Mon Jan 19 19:29:52.389452 2015] [mpm_winnt:notice] [pid 4616:tid 628] AH00430: Parent: Child process 10148 exited successfully.
+[Mon Jan 19 19:41:44.903797 2015] [mpm_winnt:notice] [pid 1540:tid 628] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Mon Jan 19 19:41:44.919397 2015] [mpm_winnt:notice] [pid 1540:tid 628] AH00456: Server built: Feb 23 2013 13:07:34
+[Mon Jan 19 19:41:44.919397 2015] [core:notice] [pid 1540:tid 628] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Mon Jan 19 19:41:44.919397 2015] [mpm_winnt:notice] [pid 1540:tid 628] AH00418: Parent: Created child process 1804
+[Mon Jan 19 19:41:45.527805 2015] [mpm_winnt:notice] [pid 1804:tid 500] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 19 20:05:09.410625 2015] [mpm_winnt:notice] [pid 1540:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 19 20:05:11.454246 2015] [mpm_winnt:notice] [pid 1804:tid 500] AH00364: Child: All worker threads have exited.
+[Mon Jan 19 20:05:11.469847 2015] [mpm_winnt:notice] [pid 1540:tid 628] AH00430: Parent: Child process 1804 exited successfully.
+[Mon Jan 19 20:05:17.304310 2015] [mpm_winnt:notice] [pid 584:tid 632] AH00455: Apache/2.4.4 (Win32) configured -- resuming normal operations
+[Mon Jan 19 20:05:17.304310 2015] [mpm_winnt:notice] [pid 584:tid 632] AH00456: Server built: Feb 23 2013 13:07:34
+[Mon Jan 19 20:05:17.304310 2015] [core:notice] [pid 584:tid 632] AH00094: Command line: 'F:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Mon Jan 19 20:05:17.351109 2015] [mpm_winnt:notice] [pid 584:tid 632] AH00418: Parent: Created child process 1424
+[Mon Jan 19 20:05:18.209118 2015] [mpm_winnt:notice] [pid 1424:tid 500] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 19 20:05:29.144833 2015] [mpm_winnt:notice] [pid 584:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 19 20:05:31.172853 2015] [mpm_winnt:notice] [pid 1424:tid 500] AH00364: Child: All worker threads have exited.
+[Mon Jan 19 20:05:31.188454 2015] [mpm_winnt:notice] [pid 584:tid 632] AH00430: Parent: Child process 1424 exited successfully.

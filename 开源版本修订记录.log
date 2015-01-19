@@ -37,3 +37,46 @@
      /zentao/module/todo/lang/zh-tw.php
      /zentao/module/todo/lang/en.php
      line 62~67：将自定义键值写入默认中
+
+[2015-1-19]
+【1】配置Xdebug用于zend studio调试（前提是将xdebug库文件php_xdebug_xxxx.dll放在php安装目录的ext文件夹下）
+     /php/php.ini
+     /runner/res/php/php.ini
+     /php/php.raw.ini
+     三个文件中末尾均新增以下行
+
+     [XDebug]  
+     ;调试功能模块儿  
+     zend_extension ="f:/xampp/php/ext/php_xdebug.dll"  
+     xdebug.remote_handler=dbgp  
+     ;开启远程调试  
+     xdebug.remote_enable = On  
+     ;远程主机  
+     xdebug.remote_host=localhost  
+     ;主机端口  
+     xdebug.remote_port=9000  
+     ;开启自动跟踪  
+     xdebug.auto_trace = On  
+     ;开启异常跟踪  
+     xdebug.show_exception_trace = On  
+     ;开启远程调试自动启动  
+     xdebug.remote_autostart = Off  
+     ;收集变量   
+     xdebug.collect_vars = On  
+     ;收集返回值   
+     xdebug.collect_return = On  
+     ;收集参数   
+     xdebug.collect_params = On  
+     ;临时跟踪信息输出  
+     xdebug.trace_output_dir="f:\xampp\php\temp\"  
+     ;显示局部变量  
+     xdebug.show_local_vars = On  
+     xdebug.profiler_enable = On  
+     xdebug.profiler_output_dir ="f:\xampp\php\temp\"  
+     xdebug.trace_enable_trigger =On  
+
+【2】配置firephp库文件用于Firefox调用firephp调试（前提是将firephp库文件FirePHPCore整个目录放在服务器中）
+     /php/php.ini
+     /runner/res/php/php.ini
+     /php/php.raw.ini
+     中“auto_prepend_file = ”修订变量为 auto_prepend_file = "f:\xampp\FirePHPCore\fb.php"
